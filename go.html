@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="imadejptr" property="og:title">
+  <meta content="The 2nd Iteration of JPTR. With 600+ games, you won't
+            have a boring time here" property="og:description">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
+  <title>imadejptr</title>
+</head>
+
+<body>
+  <abbr title="made by @marcopetrildesigns on ig <3"><img
+      src="https://storage.googleapis.com/imadejptr-v2/thumb/logo/logo.png" width="10%"
+      style="display: block; margin-left: auto; margin-right: auto;" class="logo-main"></abbr>
+  <ul id="nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/games.html">Games</a></li>
+    <li><a href="/apps.html">Apps</a></li>
+    <li><a href="/settings.html">Settings</a></li>
+    <li><a href="/partners.html">Partners</a></li>
+    <li><a onclick="RandomGame();">Random</a></li>
+  </ul>
+  <center>
+    <div class="box-info">
+      <span class="route"></span>
+      <h1 id="gameTitle"></h1>
+      <iframe width="100%" height="100%" scrolling="no" frameborder="0"
+        style="width:100%;height:800px;margin:0 auto;max-width:100%;text-align:center;overflow:hidden;" src=""
+        allow="autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated"
+        allowtransparency="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"
+        allowfullscreen="true" scrolling="no" msallowfullscreen="true" id="frame"></iframe>
+      <h1>Game Information:</h1>
+      <hr>
+      <h3>Game ID:</h3>
+      <p class="desc-box" id="gid"></p>
+      <hr>
+      <h3>Publisher:</h3>
+      <p class="desc-box" id="pub"></p>
+      <hr>
+      <h3>Year:</h3>
+      <p class="desc-box" id="year"></p>
+      <hr>
+      <h3>Description:</h3>
+      <p class="desc-box2" id="desc"></p>
+      <hr>
+      <h1>
+        More Games
+      </h1>
+      <hr>
+      <ul class="list" id="gr"></ul>
+    </div>
+    <p class="social-footer-menu">
+      <a class="f-badge" style="text-decoration: none;" href="/about.html">About</a> // <a class="f-badge"
+        style="text-decoration: none;" href="/privacy.html">Privacy Policy</a> // <a class="f-badge"
+        style="text-decoration: none;" href="/terms.html">Terms &amp; Conditions</a> // <a class="f-badge"
+        style="text-decoration: none;" href="/logs.html">Logs</a> // <a class="f-badge" style="text-decoration: none;"
+        href="/dmca.html">DMCA</a> // <a class="f-badge" style="text-decoration: none;" href="/sites.html">Mirror
+        Sites</a> //
+      <a>All games are made from other publishers</a> // <span>Copyright © 2022-2023 imadejptr</span>
+    </p>
+  </center>
+</body>
+
+<script>
+  const params = new URLSearchParams(window.location.search)
+  let games;
+  if (params.get("id")) {
+    fetch("http://127.0.0.1:5500/assets/json/gs.json")
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        games = data;
+        console.log(games);
+        games.forEach(game => {
+          if (game.id != params.get("id")) return
+          document.title = `${game.name} / imadejptr`;
+          document.querySelector(".route").innerHTML = '<a href="/games.html">GAMES</a> / <a href="/s.html?sys=' +
+            game.badge + '">' + game.badge + '</a> / ' + game.name;
+          document.querySelector("#gameTitle").innerHTML = game.name + " <span class='f-badge'>" + game.badge +
+            "</span>";
+          if (game.url == "c") {
+            document.querySelector("#frame").src = "/assets/emu/" + game.url + ".html?sys=" + game.sys + "&g=" +
+              game.g + "&id=" + game.id + "&mc=" + game.mame;
+          } else if (game.url == "u") {
+            document.querySelector("#frame").src = "/assets/unity/" + game.url + ".html?g=" + game.g;
+          } else if (game.url == "fl") {
+            document.querySelector("#frame").src = "/assets/flash/" + game.url + ".html?g=" + game.g;
+          } else if (game.url == "h") {
+            document.querySelector("#frame").src = game.gameurl;
+          }
+          document.querySelector("#gid").innerHTML = game.id;
+          document.querySelector("#pub").innerHTML = game.pub;
+          document.querySelector("#year").innerHTML = game.year;
+          document.querySelector("#desc").innerHTML = game.desc +
+            '<br><br>Information retrieved from: "<a href="' + game.source + '">' + game.source + '</a>"';
+        })
+      })
+  }
+</script>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/rand.js"></script>
+
+</html>

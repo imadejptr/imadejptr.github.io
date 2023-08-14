@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="imadejptr" property="og:title">
+  <meta content="The 2nd Iteration of JPTR. With 600+ games, you won't
+            have a boring time here" property="og:description">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>imadejptr</title>
+</head>
+
+<body>
+  <abbr title="made by @marcopetrildesigns on ig <3"><img
+      src="https://storage.googleapis.com/imadejptr-v2/thumb/logo/logo.png" width="10%"
+      style="display: block; margin-left: auto; margin-right: auto;" class="logo-main"></abbr>
+  <ul id="nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/games.html">Games</a></li>
+    <li><a href="/apps.html">Apps</a></li>
+    <li><a href="/settings.html">Settings</a></li>
+    <li><a href="/partners.html">Partners</a></li>
+    <li><a onclick="RandomGame();">Random</a></li>
+  </ul>
+  <center>
+    <h1>The "about:blank" Cloaker</h1>
+    <div id="ab">
+      <p style="text-align: center;">When you click the button below, it'll send you to a about:blank page with this
+        website still on it :></p>
+      <button class="ab" onclick="ab()">about:blank</button>
+    </div>
+    <h1>Themes</h1>
+    <button style="margin-bottom: 1em;" class="ab" onclick="RandomTheme()">Shuffle Theme</button>
+    <div id="themes">
+      <button class="theme-btn" style="background: #00151f; color: #c88b3a"
+        onclick="setTheme('default')">DEFAULT<br><span class="maker">Made by: imadejptr</span></button><button
+        class="theme-btn" style="background: #e2e2e2; color: #c88b3a" onclick="setTheme('light')">LIGHT<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn" style="background: #000033; color: white"
+        onclick="setTheme('emugalaxy')">EMUGALAXY<br><span class="maker">Made by: imadejptr</span></button><button
+        class="theme-btn" style="background: #6fd251; color: white" onclick="setTheme('yoshi')">YOSHI<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn" style="background: #7289da; color: white"
+        onclick="setTheme('discord')">DISCORD<br><span class="maker">Made by: imadejptr</span></button><button
+        class="theme-btn" style="background: #7c0b16; color: white" onclick="setTheme('ruby')">RUBY<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: rgb(59, 59, 59); color: black" onclick="setTheme('chaplin')">CHAPLIN<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: #202124; color: #f27938" onclick="setTheme('inspect')">INSPECT<br><span class="maker">Made
+          by: imadejptr</span></button><button class="theme-btn"
+        style="background: linear-gradient(#e66465, #9198e5); color: black" onclick="setTheme('faded')">FADED<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: linear-gradient(#FFDC02, #19AE47); color: white" onclick="setTheme('brazil')">BRAZIL<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn" style="background: #107C10; color: white"
+        onclick="setTheme('xbox')">XBOX<br><span class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: #8587c8; color: #ffdc89" onclick="setTheme('theprogrammer')">THEPROGRAMMER<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: linear-gradient(rgb(255 0 233), rgb(173, 216, 230)); color: white"
+        onclick="setTheme('AJSPACE')">AJSPACE<br><span class="maker">Made by: Ava :)</span></button><button
+        class="theme-btn" style="background: black; color: white" onclick="setTheme('Bob :)')">BOB :)<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: rgb(102 60 25); color: rgb(218 182 54)" onclick="setTheme('sponge 🧽')">SPONGE 🧽<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: rgb(44 21 235); color: rgb(242 192 77)" onclick="setTheme('9000')">9000<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1004240/776695fcb539b3ed14229791d5c6770e55b2df76.jpg'); color: white"
+        onclick="setTheme('/id/Th3Skeleton')">/ID/TH3SKELETON<br><span class="maker">Made by:
+          imadejptr</span></button><button class="theme-btn" style="background: #F3DFBF; color: #901403"
+        onclick="setTheme('BARF')">BARF<br><span class="maker">Made by: Dom :&gt;</span></button><button
+        class="theme-btn" style="background: #000000; color: #620000" onclick="setTheme('Meatball')">MEATBALL<br><span
+          class="maker">Made by: when0200</span></button><button class="theme-btn"
+        style="background: #300350; color: #f9ac53" onclick="setTheme('Vaporwave')">VAPORWAVE<br><span
+          class="maker">Made by: pxnzu</span></button><button class="theme-btn" style="background: black; color: white"
+        onclick="setTheme('Cooper :)')">COOPER :)<br><span class="maker">Made by: imadejptr</span></button><button
+        class="theme-btn" style="background: linear-gradient(to bottom right, #7f7fd5 0%, #91eae4 100%); color: black"
+        onclick="setTheme('Azur Lane')">AZUR LANE<br><span class="maker">Made by: imadejptr</span></button><button
+        class="theme-btn" style="background: linear-gradient(to right, #f12711 0%, #f5af19 100%); color: black"
+        onclick="setTheme('Flame')">FLAME<br><span class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: #6c5b7b; color: white" onclick="setTheme('Purp')">PURP<br><span class="maker">Made by:
+          imadejptr</span></button><button class="theme-btn"
+        style="background: linear-gradient(to bottom, #66cfff 0%, #c18eec 100%); color: white"
+        onclick="setTheme('Virgina Beach')">VIRGINA BEACH<br><span class="maker">Made by: alekie</span></button><button
+        class="theme-btn" style="background: linear-gradient(to bottom, #cb3dff 0%, #80ead5 100%); color: white"
+        onclick="setTheme('Snow')">SNOW<br><span class="maker">Made by: snouwu</span></button><button class="theme-btn"
+        style="background: rgb(194, 117, 144); color: rgb(237, 222, 229)" onclick="setTheme('Pancake')">PANCAKE<br><span
+          class="maker">Made by: ThePancakeQueen</span></button>
+    </div>
+    <h1>Community Themes</h1>
+    <h3>Wanna make your own? Head over to <a href="https://imadejptr.github.io/thememaker/" target="_blank">https://imadejptr.github.io/thememaker/</a> and get started with a few clicks</h3>
+    <div id="themes-com">
+    </div>
+  </center>
+  <p class="social-footer-menu">
+    <a class="f-badge" style="text-decoration: none;" href="/about.html">About</a> // <a class="f-badge"
+      style="text-decoration: none;" href="/privacy.html">Privacy Policy</a> // <a class="f-badge"
+      style="text-decoration: none;" href="/terms.html">Terms &amp; Conditions</a> // <a class="f-badge"
+      style="text-decoration: none;" href="/logs.html">Logs</a> // <a class="f-badge" style="text-decoration: none;"
+      href="/dmca.html">DMCA</a> // <a class="f-badge" style="text-decoration: none;" href="/sites.html">Mirror
+      Sites</a> //
+    <a>All games are made from other publishers</a> // <span>Copyright © 2022-2023 imadejptr</span>
+  </p>
+</body>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery-3.6.4.min.js"></script>
+<script src="assets/js/settings.js"></script>
+
+<script>
+
+</script>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="imadejptr" property="og:title">
+    <meta content="The 2nd Iteration of JPTR. With 600+ games, you won't
+            have a boring time here" property="og:description">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>imadejptr</title>
+</head>
+
+<body>
+    <abbr title="made by @marcopetrildesigns on ig <3"><img
+            src="https://storage.googleapis.com/imadejptr-v2/thumb/logo/logo.png" width="10%"
+            style="display: block; margin-left: auto; margin-right: auto;" class="logo-main"></abbr>
+    <ul id="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/games.html">Games</a></li>
+        <li><a href="/apps.html">Apps</a></li>
+        <li><a href="/settings.html">Settings</a></li>
+        <li><a href="/partners.html">Partners</a></li>
+        <li><a onclick="RandomGame();">Random</a></li>
+    </ul>
+    <center>
+        <div class="box-info">
+            <h1 id="gameTitle"></h1>
+            <iframe style="width:100%; height: 90vh" frameborder="0" id="frame"></iframe>
+            <h1>
+                More Games
+            </h1>
+            <hr>
+            <ul class="list" id="gr"></ul>
+        </div>
+        <p class="social-footer-menu">
+            <a class="f-badge" style="text-decoration: none;" href="/about">About</a> // <a class="f-badge"
+                style="text-decoration: none;" href="/privacy">Privacy Policy</a> // <a class="f-badge"
+                style="text-decoration: none;" href="/terms">Terms &amp; Conditions</a> // <a class="f-badge"
+                style="text-decoration: none;" href="/logs">Logs</a> // <a class="f-badge"
+                style="text-decoration: none;" href="/dmca">DMCA</a> // <a class="f-badge"
+                style="text-decoration: none;" href="/sites">Mirror Sites</a> //
+            <a>All games are made from other publishers</a> // <span>Copyright © 2022-2023 imadejptr</span>
+        </p>
+    </center>
+</body>
+
+<script>
+    const params = new URLSearchParams(window.location.search)
+    let games;
+    if (params.get("id")) {
+        fetch("http://127.0.0.1:5500/assets/json/apps.json")
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                games = data;
+                console.log(games);
+                games.forEach(game => {
+                    if (game.id != params.get("id")) return
+                    document.title = `${game.name} / imadejptr`
+                    //document.querySelector("#gameImage").src = game.image
+                    document.querySelector("#gameTitle").innerHTML = game.name + " <span class='f-badge'>" +
+                        game.badge + "</span>"
+                    //if (game.description) document.querySelector("#gameDescription").innerHTML = game.description
+                    if (game.url == "c") {
+                        document.querySelector("#frame").src = "/assets/emu/" + game.url + ".html?sys=" +
+                            game.sys + "&g=" + game.g + "&id=" + game.id + "&mc=false";
+                    } else if (game.url == "u") {
+                        document.querySelector("#frame").src = "/assets/unity/" + game.url + ".html?g=" +
+                            game.g;
+                    } else if (game.url == "h") {
+                        document.querySelector("#frame").src = game.gameurl;
+                    }
+                })
+            })
+    }
+</script>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/rand.js"></script>
+
+</html>
