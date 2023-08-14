@@ -50,7 +50,7 @@
     const params = new URLSearchParams(window.location.search)
     let games;
     if (params.get("id")) {
-        fetch("http://127.0.0.1:5500/assets/json/apps.json")
+        fetch("/assets/json/apps.json")
             .then(function (response) {
                 return response.json();
             })
