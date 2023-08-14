@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emulator</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        #game {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 100%; height: 100%; text-align:center">
+        <div id="game"></div>
+    </div>
+    <script src="data/loader.js" defer></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        var game = params.get('g');
+        var id = params.get('id');
+        var sys = params.get('sys');
+        var EJS_player = "#game";
+        var EJS_core = sys;
+        var EJS_gameID = id;
+        var EJS_gameUrl = "https://storage.googleapis.com/imadejptr-v2/old/" + sys + "/" + game + ".zip";
+        var EJS_biosUrl;
+        if (sys == "arcade") {
+            EJS_biosUrl = "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/arcade.7z"; // this is for arcade games :>
+        } else if (sys == "psx") {
+            EJS_biosUrl = "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/scph5501.bin";
+        }
+        var EJS_pathtodata = "data/";
+        var EJS_oldCores = true;
+        var EJS_mameCore = params.get('mc'); // mame core options
+    </script>
+</body>
+
+</html>

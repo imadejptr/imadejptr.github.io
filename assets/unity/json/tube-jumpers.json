@@ -1,0 +1,16 @@
+{
+  "companyName": "Michael Eichler",
+  "productName": "Tube Jumpers",
+  "dataUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/TubeJumpers.data.unityweb",
+  "asmCodeUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/TubeJumpers.asm.code.unityweb",
+  "asmMemoryUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/TubeJumpers.asm.memory.unityweb",
+  "asmFrameworkUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/TubeJumpers.asm.framework.unityweb",
+  "TOTAL_MEMORY": 268435456,
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20",
+  "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "backgroundUrl": "https://cdn.glitch.me/161fba10-08d4-4007-b3c4-cf3478168729/bg-galaxy3-6.png"
+}

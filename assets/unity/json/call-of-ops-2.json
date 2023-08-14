@@ -1,0 +1,20 @@
+{
+    "TOTAL_MEMORY": 536870912,
+    "dataUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/call_of_ops_2.data.unityweb",
+    "asmCodeUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/call_of_ops_2.asm.code.unityweb",
+    "asmMemoryUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/call_of_ops_2.asm.memory.unityweb",
+    "asmFrameworkUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/call_of_ops_2.asm.framework.unityweb",
+    "graphicsAPI": [
+        "WebGL 2.0",
+        "WebGL 1.0"
+    ],
+    "webglContextAttributes": {
+        "preserveDrawingBuffer": false
+    },
+    "backgroundUrl": "https://cdn.glitch.me/161fba10-08d4-4007-b3c4-cf3478168729/bg-galaxy3-6.png",
+    "splashScreenStyle": "Dark",
+    "backgroundColor": "#231F20",
+    "cacheControl": {
+        "default": "must-revalidate"
+    }
+}

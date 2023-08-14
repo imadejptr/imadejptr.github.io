@@ -1,0 +1,21 @@
+ {
+    "companyName": "Snow Rider",
+    "productName": "Snow Rider 3D",
+    "dataUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/snow-rider-3d.data.unityweb",
+    "wasmCodeUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/snow-rider-3d.wasm.code.unityweb",
+    "wasmFrameworkUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/snow-rider-3d.wasm.framework.unityweb",
+    "TOTAL_MEMORY": 268435456,
+    "graphicsAPI": [
+        "WebGL 2.0",
+        "WebGL 1.0"
+    ],
+    "webglContextAttributes": {
+        "preserveDrawingBuffer": false
+    },
+    "backgroundUrl": "https://cdn.glitch.me/161fba10-08d4-4007-b3c4-cf3478168729/bg-galaxy3-6.png",
+    "splashScreenStyle": "Dark",
+    "backgroundColor": "#231F20",
+    "cacheControl": {
+        "default": "must-revalidate"
+    }
+}

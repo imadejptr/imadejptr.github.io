@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body[t="default"] {
+    --background: rgb(0, 21, 31);
+    --theme: rgb(217, 142, 115);
+    --theme-secondary: rgb(160, 97, 75);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 160, 97, 75;
+}
+
+body[t="light"] {
+    --background: white;
+    --theme: rgb(217, 142, 115);
+    --theme-secondary: rgb(160, 97, 75);
+    --text: rgb(0, 21, 31);
+    --text-secondary: rgb(0, 21, 31);
+    --box: 255, 255, 255;
+}
+
+body[t="emugalaxy"] {
+    --background: rgb(0, 0, 51);
+    --theme: rgb(75, 158, 255);
+    --theme-secondary: rgb(55, 95, 160);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 0, 51;
+}
+
+body[t="yoshi"] {
+    --background: rgb(111, 210, 81);
+    --theme: rgb(252, 128, 32);
+    --theme-secondary: rgb(253, 97, 52);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 111, 210, 81;
+}
+
+body[t="discord"] {
+    --background: rgb(114, 137, 218);
+    --theme: rgb(44, 47, 51);
+    --theme-secondary: rgb(35, 39, 42);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 114, 137, 218;
+}
+
+body[t="ruby"] {
+    --background: rgb(124, 11, 22);
+    --theme: rgb(230, 25, 46);
+    --theme-secondary: rgb(237, 94, 109);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 38, 38, 38;
+}
+
+body[t="chaplin"] {
+    --background: rgb(59, 59, 59);
+    --theme: rgb(197, 197, 197);
+    --theme-secondary: rgb(134, 134, 134);
+    --text: rgb(0, 0, 0);
+    --text-secondary: rgb(0, 0, 0);
+    --box: 255, 250, 250;
+}
+
+body[t="inspect"] {
+    font-family: 'Source Code Pro', monospace;
+    --background: rgb(32, 33, 36);
+    --theme: rgb(124, 180, 248);
+    --theme-secondary: rgb(32, 100, 181);
+    --text: rgb(242, 121, 56);
+    --text-secondary: rgb(171, 171, 171);
+    --box: 32, 33, 36;
+}
+
+body[t="faded"] {
+    --background: linear-gradient(rgb(230, 100, 101), rgb(145, 152, 229));
+    --theme: rgb(210, 214, 255);
+    --theme-secondary: rgb(255, 255, 255);
+    --text: rgb(0, 0, 0);
+    --text-secondary: rgb(0, 0, 0);
+    --box: 230, 100, 101;
+}
+
+body[t="brazil"] {
+    --background: linear-gradient(rgb(255, 220, 2), rgb(25, 174, 71));
+    --theme: rgb(12, 135, 209);
+    --theme-secondary: rgb(25, 51, 117);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 25, 51, 117;
+}
+
+body[t="xbox"] {
+    --background: rgb(58, 58, 58);
+    --theme: rgb(16, 124, 16);
+    --theme-secondary: rgb(126, 185, 0);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(0, 0, 0);
+    --box: 58, 58, 58;
+}
+
+body[t="theprogrammer"] {
+    --background: rgb(16, 30, 44);
+    --theme: rgb(133, 135, 200);
+    --theme-secondary: rgb(27, 50, 74);
+    --text: rgb(255, 220, 137);
+    --text-secondary: rgb(10, 205, 220);
+    --box: 27, 50, 74;
+}
+
+body[t="AJSPACE"] {
+    --background: linear-gradient(rgb(255 0 233), rgb(173, 216, 230));
+    --theme: rgb(151, 0, 88);
+    --theme-secondary: rgb(99, 0, 58);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(173, 216, 230);
+    --box: 0, 0, 0;
+}
+
+body[t="Bob :)"] {
+    --background: url("https://storage.googleapis.com/imadejptr-v2/thumb/theme/bob.png");
+    --theme: rgba(255, 255, 255, 0.5);
+    --theme-secondary: rgba(255, 255, 255, 0.5);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 0, 0;
+}
+
+body[t="clown"] {
+    --background: url("https://cdn.glitch.me/2d6e8d70-57a5-4dd2-b4bb-c1505f83f020/goofy.jpg");
+    --theme: rgb(255, 255, 255);
+    --theme-secondary: rgb(255, 255, 255);
+    --text: rgb(0, 0, 0);
+    --text-secondary: rgb(0, 0, 0);
+    --box: 255, 255, 255;
+}
+
+body[t="luma"] {
+    --background: rgb(0, 0, 0);
+    --theme: rgb(55, 63, 255);
+    --theme-secondary: rgb(0, 0, 235);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(211, 211, 211);
+    --box: 0, 0, 0;
+}
+
+body[t="sponge 🧽"] {
+    --background: rgb(218 182 54);
+    --theme: rgb(102 60 25);
+    --theme-secondary: rgb(75, 39, 23);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(152 28 43);
+    --box: 0, 0, 0;
+}
+
+body[t="9000"] {
+    --background: rgb(44 21 235);
+    --theme: rgb(242 192 77);
+    --theme-secondary: rgb(241 142 77);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(240 200 188);
+    --box: 0, 0, 0;
+}
+
+body[t="/id/Th3Skeleton"] {
+    --background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1004240/776695fcb539b3ed14229791d5c6770e55b2df76.jpg");
+    --theme: rgba(242, 192, 77, 0.8);
+    --theme-secondary: rgba(223, 172, 53, 0.5);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(144, 238, 144);
+    --box: 0, 0, 0;
+}
+
+body[t="BARF"] {
+    --background: #F3DFBF;
+    --theme: #FAFF7F;
+    --theme-secondary: #98FB57;
+    --text: #901403;
+    --text-secondary: #9C8570;
+    --box: 210, 210, 192;
+}
+
+body[t="Meatball"] {
+    --background: #620000;
+    --theme: #000000;
+    --theme-secondary: #707070;
+    --text: #ffffff;
+    --text-secondary: #ffffff;
+    --box: 189, 107, 255;
+}
+
+body[t="Vaporwave"] {
+    --background: #300350;
+    --theme: #e93479;
+    --theme-secondary: #f9ac53;
+    --text: #00269b;
+    --text-secondary: #300350;
+    --box: 249, 172, 83;
+}
+
+body[t="Cooper :)"] {
+    --background: url("https://storage.googleapis.com/imadejptr-v2/thumb/theme/coopy.jpg");
+    --theme: rgba(255, 255, 255, 0.5);
+    --theme-secondary: rgba(255, 255, 255, 0.5);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 0, 0;
+}
+
+body[t="Azur Lane"] {
+    --background: linear-gradient(to bottom right, #7f7fd5 0%, #91eae4 100%);
+    --theme: #ffffff;
+    --theme-secondary: #bababa;
+    --text: #000000;
+    --text-secondary: #ffffff;
+    --box: 191, 191, 191;
+}
+
+body[t="Flame"] {
+    --background: linear-gradient(to right, #f12711 0%, #f5af19 100%);
+    --theme: #fbff00;
+    --theme-secondary: #cddb00;
+    --text: #000000;
+    --text-secondary: #ff0000;
+    --box: 219, 201, 0;
+}
+
+body[t="Purp"] {
+    --background: #654d7a;
+    --theme: #b073d9;
+    --theme-secondary: #824ba0;
+    --text: #ffffff;
+    --text-secondary: #ffffff;
+    --box: 130, 75, 160;
+}
+
+body[t="Virgina Beach"] {
+    --background: linear-gradient(to bottom, #66cfff 0%, #c18eec 100%);
+    --theme: #fffafa;
+    --theme-secondary: #e1c1fb;
+    --text: #000000;
+    --text-secondary: #000000;
+    --box: 102, 207, 255;
+}
+
+body[t="Snow"] {
+    --background: linear-gradient(to bottom, #cb3dff 0%, #80ead5 100%);
+    --theme: rgb(251, 208, 237);
+    --theme-secondary: rgb(176, 97, 255);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(234, 254, 205);
+    --box: 255, 102, 191;
+}
+
+body[t="Pancake"] {
+    --background: rgb(173, 209, 165);
+    --theme: rgb(194, 117, 144);
+    --theme-secondary: rgb(204, 148, 168);
+    --text: rgb(237, 222, 229);
+    --text-secondary: rgb(173, 211, 167);
+    --box: 91, 123, 86;
+}
+
+body[t="EVA Unit-01"] {
+    --background: url('https://storage.googleapis.com/imadejptr-v2/thumb/theme/3724556.png');
+    --theme: rgb(159, 80, 211);
+    --theme-secondary: rgb(160, 109, 75);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 148, 27;
+}

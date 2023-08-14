@@ -1,0 +1,91 @@
+[{
+        "name": "Discord",
+        "gameurl": "/assets/xml/dc.html",
+        "sys": "h",
+        "id": "1",
+        "url": "h",
+        "badge": "APP",
+        "img": "discord-app.jpg"
+    },
+    {
+        "name": "Windows 11 React",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93aW4xMS5ibHVlZWRnZS5tZS8=",
+        "sys": "h",
+        "id": "2",
+        "url": "h",
+        "badge": "APP",
+        "img": "win11.jpg"
+    },
+    {
+        "name": "Twitter",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly90d2l0dGVyLmNvbS8=",
+        "sys": "h",
+        "id": "3",
+        "url": "h",
+        "badge": "APP",
+        "img": "twitter.png"
+    },
+    {
+        "name": "Twitch",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cudHdpdGNoLnR2Lw==",
+        "sys": "h",
+        "id": "4",
+        "url": "h",
+        "badge": "APP",
+        "img": "twitch.png"
+    },
+    {
+        "name": "Netflix",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cubmV0ZmxpeC5jb20v",
+        "sys": "h",
+        "id": "5",
+        "url": "h",
+        "badge": "APP",
+        "img": "netflix.png"
+    },
+    {
+        "name": "Spotify",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tLw==",
+        "sys": "h",
+        "id": "6",
+        "url": "h",
+        "badge": "APP",
+        "img": "spotify.png"
+    },
+    {
+        "name": "YouTube",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cueW91dHViZS5jb20v",
+        "sys": "h",
+        "id": "7",
+        "url": "h",
+        "badge": "APP",
+        "img": "youtube.png"
+    },
+    {
+        "name": "TikTok",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cudGlrdG9rLmNvbS8=",
+        "sys": "h",
+        "id": "8",
+        "url": "h",
+        "badge": "APP",
+        "img": "tiktok.png"
+    },
+    {
+        "name": "WatchCartoonsOnline",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cud2Nvc3RyZWFtLm9yZy8=",
+        "sys": "h",
+        "id": "9",
+        "url": "h",
+        "badge": "APP",
+        "img": "wco.png"
+    },
+    {
+        "name": "Chess.com",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cuY2hlc3MuY29tLw==",
+        "sys": "h",
+        "id": "10",
+        "url": "h",
+        "badge": "APP",
+        "img": "chess.png"
+    }
+]

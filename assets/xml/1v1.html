@@ -1,0 +1,57 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1v1.LOL</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/h3sj7v2f6k/sf5fg7eh@b7eeadcaf56b0b1604d247fc59dcaf1ced44a8ba/style.css">
+<script src="https://cdn.jsdelivr.net/gh/h3sj7v2f6k/sf5fg7eh@b7eeadcaf56b0b1604d247fc59dcaf1ced44a8ba/UnityProgress.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ko1ov/to@d0d015146c9fe9467277b549b4637d9a7a644165/UnityLoader.js"></script>
+<script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/ko1ov/to@60eea3a396639d715690dc34ef485f0a799295ec/get.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+</head>
+<body>
+<div class="webgl-content">
+<div id="gameContainer" style="width: 100%; height: 100%; margin: auto;"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/h3sj7v2f6k/sf5fg7eh@f3d175b81dc28d82dfc30fc758c64ea0f6d1704d/firebase-app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/h3sj7v2f6k/sf5fg7eh@f3d175b81dc28d82dfc30fc758c64ea0f6d1704d/firebase-auth.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/h3sj7v2f6k/sf5fg7eh@f3d175b81dc28d82dfc30fc758c64ea0f6d1704d/firebase-firestore.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/h3sj7v2f6k/sf5fg7eh@f3d175b81dc28d82dfc30fc758c64ea0f6d1704d/firebase-remote-config.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ko1ov/to@7608e4d77886cf4f9e73fd3852463f4217641ec4/firebase.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ko1ov/to@7608e4d77886cf4f9e73fd3852463f4217641ec4/login.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ko1ov/to@7608e4d77886cf4f9e73fd3852463f4217641ec4/firebase-config.js"></script>
+<script>
+  initializeFireBase();
+  initRemoteConfig();
+  
+  window.unityInstance = gameInstance;
+  function showAds() {
+   console.log("show ads");
+        }
+
+  function requestNewAd(){
+  // Show video ad
+  unityAdFinishedCallback();
+  
+  }
+
+  function unityAdFinishedCallback(){
+  try{
+   if(gameInstance)
+    gameInstance.SendMessage('MainMenuManagers', 'OnWebCallback');
+  }
+  catch(error){
+   console.log(error);
+  }
+ }
+  function onUnityReady() {
+
+     sendConfig();
+    }
+ </script>
+</body>
+</html>

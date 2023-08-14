@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i");
+
+
+.webgl-content * {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+
+.webgl-content .logo,
+.progress {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.webgl-content .logo {
+    background: url('progressLogo.Light.png') no-repeat center / contain;
+    width: 154px;
+    height: 130px;
+}
+
+.webgl-content .progress {
+    height: 18px;
+    width: 141px;
+    margin-top: 90px;
+}
+
+.webgl-content .progress .empty {
+    background: url('progressEmpty.Light.png') no-repeat right / cover;
+    float: right;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.webgl-content .progress .full {
+    background: url('progressFull.Light.png') no-repeat left / cover;
+    float: left;
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+}
+
+.webgl-content .logo.Dark {
+    background-image: url('progressLogo.Dark.png');
+}
+
+.webgl-content .progress.Dark .empty {
+    background-image: url('progressEmpty.Dark.png');
+}
+
+.webgl-content .progress.Dark .full {
+    background-image: url('progressFull.Dark.png');
+}
+
+.webgl-content .footer {
+    margin-top: 5px;
+    height: 38px;
+    line-height: 38px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.webgl-content .footer .webgl-logo,
+.title,
+.fullscreen {
+    height: 100%;
+    display: inline-block;
+    background: transparent center no-repeat;
+}
+
+.webgl-content .footer .webgl-logo {
+    background-image: url('webgl-logo.png');
+    width: 204px;
+    float: left;
+}
+
+.webgl-content .footer .title {
+    margin-right: 10px;
+    float: right;
+}
+
+.webgl-content .footer .fullscreen {
+    background-image: url('fullscreen.png');
+    width: 38px;
+    float: right;
+}
+
+#run_game {
+    min-width: 100%;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    background: url("https://cdn.glitch.com/161fba10-08d4-4007-b3c4-cf3478168729%2Fbg-galaxy3-6.png?1557025303102");
+    background-attachment: fixed;
+    background-color: rgba(200, 139, 58, 0.5);
+    padding: 18px 46px;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-animation: rainbow 2s infinite;
+
+    /* Internet Explorer */
+    -ms-animation: rainbow 2s infinite;
+
+    /* Standar Syntax */
+    animation: rainbow 2s infinite;
+}
+
+#run_game:hover {
+    background: linear-gradient(0deg,
+            rgba(200, 139, 58, 0.5),
+            rgba(200, 139, 58, 0.3)),
+        url("https://cdn.glitch.com/161fba10-08d4-4007-b3c4-cf3478168729%2Fbg-galaxy3-6.png?1557025303102");
+    background-attachment: fixed;
+    background-color: rgba(200, 139, 58);
+}
+
+#run_game:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+/* Standar Syntax */
+@keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
+}

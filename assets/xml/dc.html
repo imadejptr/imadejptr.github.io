@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <title>Discord</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Raleway:400,700,700i");
+        @import url("https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/fontface.css");
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Raleway", sans-serif;
+            background: linear-gradient(0deg,
+                    rgba(200, 139, 58, 0.5),
+                    rgba(200, 139, 58, 0.3)),
+                url("https://cdn.glitch.com/161fba10-08d4-4007-b3c4-cf3478168729%2Fbg-galaxy3-6.png?1557025303102");
+            background-attachment: fixed;
+            background-color: rgba(200, 139, 58, 0.5);
+        }
+
+        .form-control {
+            background-color: black;
+            color: white;
+        }
+
+        .btn {
+            background-color: rgb(255, 165, 91);
+        }
+
+        .btn:hover {
+            background-color: rgb(139, 68, 10);
+        }
+
+        .middle {
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="filler" style="visibility: visible;">
+        <div class="middle">
+            <div class="form-group">
+                <h2 style="color:white;">Select version:</h2>
+                <select class="form-control" style="width:unset;display:inline;" id="dropDown">
+                    <option value="https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly9kaXNjb3JkLmNvbS8=" selected>
+                        Discord [Proxy]</option>
+                    <option value="https://e.widgetbot.io/channels/1049872644528418856/1049889161458499584">
+                        Widgetbot</option>
+                </select><button class="btn btn-primary" style="margin-top:-4px;margin-left:4px;" id="start"
+                    onclick="loadGame();">Start</button>
+            </div>
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        const el = document.getElementById('filler'); setTimeout(() => { el.style.visibility = 'visible'; }, 5000); function loadGame() {
+            var URL = document.getElementById("dropDown").value; var baseHTML = '<div>' +
+                '<iframe style="border: solid 1px orange" width="100%" height="100%" allow="clipboard-read; clipboard-write" id="game" src="' + URL + '" scrolling="no"></iframe></div>'; document.getElementById("filler").innerHTML = baseHTML;
+        }
+    </script>
+</body>
+
+</html>

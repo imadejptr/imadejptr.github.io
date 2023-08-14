@@ -1,0 +1,91 @@
+[{
+        "name": "All Games",
+        "img": "all",
+        "url": "all.html",
+        "desc": "This takes you to every single game that this website offers, why not check it out!"
+    },
+    {
+        "name": "HTML5 Games",
+        "img": "html5",
+        "url": "s.html?sys=html5",
+        "desc": "Looking for WebGL games like Slope and Tunnel Rush while also looking for PURSHOT.IO? Then HTML5 is perfect for you. This houses all of the web games on the site."
+    },
+    {
+        "name": "Arcade",
+        "img": "arcade",
+        "url": "s.html?sys=arcade",
+        "desc": "Ever since 1971 when Computer Space hit local bowling alley arcades, Arcades have become a main stay in pop culture. This houses arcade games from 1978-2003."
+    },
+    {
+        "name": "Atari 2600",
+        "img": "atari",
+        "url": "s.html?sys=2600",
+        "desc": "Released in 1977, the Atari 2600 was the first big video game console to hit the market, showing the potential of the video game market. A lot of simple games are on this old relic."
+    },
+    {
+        "name": "Nintendo Entertainment System",
+        "img": "nes",
+        "url": "s.html?sys=nes",
+        "desc": "Released in 1985, the Nintendo Entertainment System is a 8-bit system and houses a lot of Nintendo's flagship properties first starts on the system."
+    },
+    {
+        "name": "Sega Master System",
+        "img": "sms",
+        "url": "s.html?sys=sms",
+        "desc": "Released in 1986, the Sega Master System was Sega's first big jump into the console market. An 8-bit system that was over shunned by its competitors for most of its lifespan, it has a lot of Sega's flagship properties first starts on the system."
+    },
+    {
+        "name": "Gameboy",
+        "img": "gameboy",
+        "url": "s.html?sys=gb",
+        "desc": "Released in 1989, the Gameboy changed portable gaming forever with the introduction of cartridges and being able to survive an explosion (im not kidding look it up). Games like Pokemon and Tetris had there starts on the Gameboy"
+    },
+    {
+        "name": "Sega Genesis",
+        "img": "gen",
+        "url": "s.html?sys=gen",
+        "desc": "Released in 1989, it was the first of its kind to be 16-bit and also the first true rival of Nintendo. This console houses a lot of SEGA's classic games. SEGA DOES WHAT NINTENDON'T"
+    },
+    {
+        "name": "Game Gear",
+        "img": "gg",
+        "url": "s.html?sys=sgg",
+        "desc": "Released in 1991, the Game Gear was Sega's response the Nintendo's Gameboy. With a backlit screen, color instead of puke green, and a solid line up of games makes this one of the most underrated handhelds ever made."
+    },
+    {
+        "name": "Super Nintendo Entertainment System",
+        "img": "snes",
+        "url": "s.html?sys=snes",
+        "desc": "Released in 1991, the Super Nintendo Entertainment System is the sequal to the NES. A 16-bit monster that introduced the FX chip and some of the greatest games of all time. This console was also the first to have shoulder buttons."
+    },
+    {
+        "name": "Sega 32X",
+        "img": "32x",
+        "url": "s.html?sys=32x",
+        "desc": "Released in 1994, it was a 32 bit add-on of the already exsisting and at the time aging Sega Genesis. Even though the library is small and it being considered a flop with the Sega CD, it has some great games on it."
+    },
+    {
+        "name": "PlayStation 1",
+        "img": "ps1",
+        "url": "s.html?sys=ps1",
+        "desc": "Released in 1995, the PS1 was sony's first outing in the gaming market, and it wouldn't be there last. The first system to have CD functionality and to be successful and one of the first 64-bit systems ever."
+    },
+    {
+        "name": "Nintendo 64",
+        "img": "n64",
+        "url": "s.html?sys=n64",
+        "desc": "Released in 1996, the Nintendo 64 was the first system to utilize a joystick for there games and introduced the Nintendo community to 3D games. A lot of Nintendo's flagship series made the jump to 3D with this system."
+    },
+    {
+        "name": "Gameboy Advance",
+        "img": "gba",
+        "url": "s.html?sys=gba",
+        "desc": "Released in 2001, the GBA was the sequal to the Gameboy, introducing 32-bit portable gaming. With a solid lineup of games, including a lot of the best Pokemon games in the franchise, the GBA is a pioneer of portable gaming."
+    },
+    {
+        "name": "Nintendo DS",
+        "img": "nds",
+        "url": "s.html?sys=nds",
+        "desc": "Released in 2004, The Nintendo DS was a revolutionary portable system, with touch screen implemented, GBA backwards compatablity and a solid lineup of games spanning a decade. And also houses arguably the best mario kart of all time."
+    }
+]
