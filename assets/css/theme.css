@@ -270,3 +270,12 @@ body[t="EVA Unit-01"] {
     --text-secondary: rgb(255, 255, 255);
     --box: 0, 148, 27;
 }
+
+body[t="four bfdi"] {
+    --background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU6hkNAXu7PC1SAvp1AwN83Tol1nlY5KJUCV_6FsSFJcCGJxIhsHWNifDmikFy9RRXY94&usqp=CAU');
+    --theme: rgb(10, 104, 255);
+    --theme-secondary: rgb(0, 110, 179);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 145, 255;
+}
