@@ -33,12 +33,16 @@
         var EJS_player = "#game";
         var EJS_core = sys;
         var EJS_gameID = id;
-        var EJS_gameUrl = "https://storage.googleapis.com/imadejptr-v2/old/" + sys + "/" + game + ".zip";
+        var EJS_gameUrl;
         var EJS_biosUrl;
-        if (sys == "arcade") {
-            EJS_biosUrl = "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/arcade.7z"; // this is for arcade games :>
-        } else if (sys == "psx") {
-            EJS_biosUrl = "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/scph5501.bin";
+        if (sys == "psx") {
+            EJS_gameUrl = "https://storage.googleapis.com/imadejptr-v2/old/" + sys + "/" + game + ".zip";
+            EJS_biosUrl = "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/scph5501.bin"; // this is for arcade games :>
+        } else if (sys == "arcade" || sys == "mame" || sys == "mame2003" || sys == "atari2600") {
+            EJS_gameUrl = "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/" + game + ".zip";
+            EJS_biosUrl = "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/arcade.7z";
+        } else {
+            EJS_gameUrl = "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/" + game + "-" + sys + ".zip";
         }
         var EJS_pathtodata = "data/";
         var EJS_oldCores = true;

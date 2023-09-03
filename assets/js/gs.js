@@ -29,7 +29,7 @@ function search(data) {
                 if (valu.name.search(expression) != -1) {
                     $('#gs').append("<li><a href=/go.html?id=" +
                         valu.id +
-                        ' class="box"><img src="https://storage.googleapis.com/imadejptr-v2/thumb/' +
+                        ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
                         valu.id +
                         '.' +
                         valu.img +
@@ -48,7 +48,7 @@ function search(data) {
         div.innerHTML =
             "<a href=/go.html?id=" +
             data[i].id +
-            ' class="box"><img src="https://storage.googleapis.com/imadejptr-v2/thumb/' +
+            ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
             data[i].id +
             '.' +
             data[i].img +

@@ -87,5 +87,14 @@
         "url": "h",
         "badge": "APP",
         "img": "chess.png"
+    },
+    {
+        "name": "Voicy",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cudm9pY3kubmV0d29yay8=",
+        "sys": "h",
+        "id": "11",
+        "url": "h",
+        "badge": "APP",
+        "img": "voicy.png"
     }
 ]

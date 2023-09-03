@@ -51,7 +51,7 @@ fetch("/assets/json/systems.json")
     for (let i = 0; i < sys.length; i++) {
       let div = document.createElement("div");
       div.classList = "partners partners-container";
-      div.innerHTML = '<a href="/' + sys[i].url + '"><img src="https://storage.googleapis.com/imadejptr-v2/thumb/sys/' + sys[i].img + '-sys.png" style="width: 100%;"><div class="partners-overlay"><div class="partners-text"><b>' + sys[i].name + '</b>: ' + sys[i].desc + '</div></div><br></a><br></div>'
+      div.innerHTML = '<a href="/' + sys[i].url + '"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' + sys[i].img + '-sys.png" style="width: 100%;"><div class="partners-overlay"><div class="partners-text"><b>' + sys[i].name + '</b>: ' + sys[i].desc + '</div></div><br></a><br></div>'
       systems.appendChild(div);
     }
   })
@@ -97,7 +97,7 @@ function hot(bobbo) {
     div.innerHTML =
       "<a href=/go.html?id=" +
       bobbo[i].id +
-      ' class="box"><img src="https://storage.googleapis.com/imadejptr-v2/thumb/' +
+      ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
       bobbo[i].id +
       '.' +
       bobbo[i].img +
@@ -134,7 +134,7 @@ function news(coopy) {
     div.innerHTML =
       "<a href=/go.html?id=" +
       coopy[i].id +
-      ' class="box"><img src="https://storage.googleapis.com/imadejptr-v2/thumb/' +
+      ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
       coopy[i].id +
       '.' +
       coopy[i].img +
@@ -144,6 +144,37 @@ function news(coopy) {
       coopy[i].name +
       "</span></a>";
     newG.appendChild(div);
+  }
+}
+
+const chirpy = fetch("/assets/json/pc.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (chirpy) {
+    pc(chirpy);
+  })
+  .catch(function (err) {
+    console.log("error: " + err);
+  });
+
+function pc(chirpy) {
+  let pcG = document.getElementById("pc");
+  for (var i = 0; i <= chirpy.length; i++) {
+    var div = document.createElement("li");
+    div.innerHTML =
+      "<a href=/go.html?id=" +
+      chirpy[i].id +
+      ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
+      chirpy[i].id +
+      '.' +
+      chirpy[i].img +
+      '" data-loaded="true"><div class="badge">' +
+      chirpy[i].badge +
+      '</div><span class="box-title">' +
+      chirpy[i].name +
+      "</span></a>";
+    pcG.appendChild(div);
   }
 }
 

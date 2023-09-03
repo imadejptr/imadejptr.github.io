@@ -5,7 +5,9 @@
   "dataUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/bb765d31ba8b089e2bcebd79c2e6665f.unityweb",
   "wasmCodeUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/dcddf60e913ceb0556fb9c64cfdf95bb.unityweb",
   "wasmFrameworkUrl": "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/4a092fb06f4bfc3779773e277fab66cf.unityweb",
-  "graphicsAPI": ["WebGL 2.0"],
+  "graphicsAPI": [
+    "WebGL 2.0"
+  ],
   "webglContextAttributes": {
     "preserveDrawingBuffer": false
   },

@@ -119,7 +119,7 @@ body[t="AJSPACE"] {
 }
 
 body[t="Bob :)"] {
-    --background: url("https://storage.googleapis.com/imadejptr-v2/thumb/theme/bob.png");
+    --background: url("https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/bob.png");
     --theme: rgba(255, 255, 255, 0.5);
     --theme-secondary: rgba(255, 255, 255, 0.5);
     --text: rgb(255, 255, 255);
@@ -200,7 +200,7 @@ body[t="Vaporwave"] {
 }
 
 body[t="Cooper :)"] {
-    --background: url("https://storage.googleapis.com/imadejptr-v2/thumb/theme/coopy.jpg");
+    --background: url("https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/coopy.jpg");
     --theme: rgba(255, 255, 255, 0.5);
     --theme-secondary: rgba(255, 255, 255, 0.5);
     --text: rgb(255, 255, 255);
@@ -263,7 +263,7 @@ body[t="Pancake"] {
 }
 
 body[t="EVA Unit-01"] {
-    --background: url('https://storage.googleapis.com/imadejptr-v2/thumb/theme/3724556.png');
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/3724556.png');
     --theme: rgb(159, 80, 211);
     --theme-secondary: rgb(160, 109, 75);
     --text: rgb(255, 255, 255);
@@ -272,7 +272,7 @@ body[t="EVA Unit-01"] {
 }
 
 body[t="four bfdi"] {
-    --background: url('https://storage.googleapis.com/imadejptr-v2/thumb/theme/the_real_eggdoggo.png');
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/the_real_eggdoggo.png');
     --theme: rgb(10, 104, 255);
     --theme-secondary: rgb(0, 110, 179);
     --text: rgb(255, 255, 255);
