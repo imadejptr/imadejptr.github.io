@@ -1,6 +1,7 @@
 // settings.js
 // purpose: used for customization
 
+document.getElementById("t_info").innerHTML = "Current Theme: " + localStorage.getItem("t").toUpperCase();
 
 // this is used to set the theme up
 function setTheme(t) {
@@ -8,6 +9,7 @@ function setTheme(t) {
     document.body.setAttribute("t", t);
     document.body.style = "";
     localStorage.removeItem("theme_color");
+    document.getElementById("t_info").innerHTML = "Theme Selected: " + t;
 }
 
 // this generates all the current themes using a json file
@@ -21,6 +23,7 @@ function RandomTheme() {
         .then(function (data) {
             let rand = Math.floor(Math.random() * (data.length + 1));
             setTheme(data[rand].theme);
+            document.getElementById("t_info").innerHTML = "Theme Selected: " + data[rand].theme.toUpperCase();
         })
 }
 

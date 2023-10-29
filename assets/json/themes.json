@@ -10,5 +10,53 @@
         "background": "rgb(10, 104, 255)",
         "color": "rgb(255, 255, 255)",
         "maker": "the_real_eggdoggo"
+    },
+    {
+        "theme": "Stary Night",
+        "background": "url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/starynight.png')",
+        "color": "rgb(204, 198, 251)",
+        "maker": "StarsAbove"
+    },
+    {
+        "theme": "RGB",
+        "background": "linear-gradient(to bottom left, rgb(255, 0, 0) 0%, rgb(0, 255, 0) 100%)",
+        "color": "rgb(0, 255, 255)",
+        "maker": "GlitchyPyro"
+    },
+    {
+        "theme": "Odessa, Ukraine",
+        "background": "url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/ukraine.jpg')",
+        "color": "rgb(255, 255, 255)",
+        "maker": "ZirkaYasrkava :]"
+    },
+    {
+        "theme": "Blue Star",
+        "background": "url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/bluestar.jpg')",
+        "color": "rgb(133, 214, 255)",
+        "maker": "Expo"
+    },
+    {
+        "theme": "Ocean",
+        "background": "rgb(7, 105, 151)",
+        "color": "rgb(92, 194, 219)",
+        "maker": "3liana"
+    },
+    {
+        "theme": "blue clouds",
+        "background": "linear-gradient(to bottom, rgb(14, 138, 196) 0%, rgb(137, 176, 194) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "maker": "insert name"
+    },
+    {
+        "theme": "hell",
+        "background": "rgb(0, 0, 0)",
+        "color": "rgb(255, 0, 0)",
+        "maker": "Hellosguys"
+    },
+    {
+        "theme": "Purple Galaxy",
+        "background": "url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/purplegalaxy.jpg')",
+        "color": "rgb(185, 129, 255)",
+        "maker": "CHICKENBOY923YAY"
     }
 ]

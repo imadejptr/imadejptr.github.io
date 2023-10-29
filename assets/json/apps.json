@@ -72,7 +72,7 @@
     },
     {
         "name": "WatchCartoonsOnline",
-        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cud2Nvc3RyZWFtLm9yZy8=",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93Y29zdHJlYW0udHY=",
         "sys": "h",
         "id": "9",
         "url": "h",
@@ -96,5 +96,32 @@
         "url": "h",
         "badge": "APP",
         "img": "voicy.png"
+    },
+    {
+        "name": "Hulu",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cuaHVsdS5jb20v",
+        "sys": "h",
+        "id": "12",
+        "url": "h",
+        "badge": "APP",
+        "img": "hulu.png"
+    }, 
+    {
+        "name": "Google",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8=",
+        "sys": "h",
+        "id": "13",
+        "url": "h",
+        "badge": "APP",
+        "img": "google.png"
+    },
+    {
+        "name": "Facebook",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw==",
+        "sys": "h",
+        "id": "14",
+        "url": "h",
+        "badge": "APP",
+        "img": "facebook.png"
     }
 ]

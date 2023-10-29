@@ -279,3 +279,75 @@ body[t="four bfdi"] {
     --text-secondary: rgb(255, 255, 255);
     --box: 0, 145, 255;
 }
+
+body[t="Stary Night"] {
+    --background: url('https://images7.alphacoders.com/910/910227.png');
+    --theme: rgb(25, 47, 112);
+    --theme-secondary: rgb(54, 68, 129);
+    --text: rgb(204, 198, 251);
+    --text-secondary: rgb(255, 240, 240);
+    --box: 0, 11, 97;
+}
+
+body[t="RGB"] {
+    --background: linear-gradient(to bottom left, rgb(255, 0, 0) 0%, rgb(0, 255, 0) 100%);
+    --theme: rgb(0, 0, 255);
+    --theme-secondary: rgb(255, 255, 0);
+    --text: rgb(0, 255, 255);
+    --text-secondary: rgb(255, 0, 255);
+    --box: 255, 255, 255;
+}
+
+body[t="Odessa, Ukraine"] {
+    --background: url('https://d6qyz3em3b312.cloudfront.net/upload/images/media/2023/01/26/shutterstock_620452499.2048x1024.jpg');
+    --theme: rgb(230, 0, 0);
+    --theme-secondary: rgb(255, 234, 0);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 194, 194);
+    --box: 255, 123, 0;
+}
+
+body[t="Blue Star"] {
+    --background: url('https://cdna.artstation.com/p/marketplace/presentation_assets/002/893/186/large/file.jpg?1690605723');
+    --theme: rgb(61, 110, 255);
+    --theme-secondary: rgb(23, 37, 64);
+    --text: rgb(133, 214, 255);
+    --text-secondary: rgb(7, 0, 102);
+    --box: 0, 131, 163
+}
+
+body[t="Ocean"] {
+    --background: rgb(7, 105, 151);
+    --theme: rgb(199, 248, 255);
+    --theme-secondary: rgb(143, 119, 172);
+    --text: rgb(92, 194, 219);
+    --text-secondary: rgb(8, 20, 114);
+    --box: 69, 164, 165;
+}
+
+body[t="blue clouds"] {
+    --background: linear-gradient(to bottom, rgb(14, 138, 196) 0%, rgb(137, 176, 194) 100%);
+    --theme: rgb(53, 109, 151);
+    --theme-secondary: rgb(123, 244, 230);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 14, 106, 124
+}
+
+body[t="hell"] {
+    --background: rgb(0, 0, 0);
+    --theme: rgb(255, 0, 0);
+    --theme-secondary: rgb(0, 0, 0);
+    --text: rgb(255, 0, 0);
+    --text-secondary: rgb(255, 0, 0);
+    --box: 0, 0, 0;
+}
+
+body[t="Purple Galaxy"] {
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/purplegalaxy.jpg');
+    --theme: rgb(85, 0, 102);
+    --theme-secondary: rgb(0, 43, 143);
+    --text: rgb(185, 129, 255);
+    --text-secondary: rgb(185, 129, 254);
+    --box: 90, 7, 79;
+}
