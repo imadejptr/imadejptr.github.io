@@ -281,7 +281,7 @@ body[t="four bfdi"] {
 }
 
 body[t="Stary Night"] {
-    --background: url('https://images7.alphacoders.com/910/910227.png');
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/starynight.png');
     --theme: rgb(25, 47, 112);
     --theme-secondary: rgb(54, 68, 129);
     --text: rgb(204, 198, 251);
@@ -299,7 +299,7 @@ body[t="RGB"] {
 }
 
 body[t="Odessa, Ukraine"] {
-    --background: url('https://d6qyz3em3b312.cloudfront.net/upload/images/media/2023/01/26/shutterstock_620452499.2048x1024.jpg');
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/ukraine.jpg');
     --theme: rgb(230, 0, 0);
     --theme-secondary: rgb(255, 234, 0);
     --text: rgb(255, 255, 255);
@@ -308,7 +308,7 @@ body[t="Odessa, Ukraine"] {
 }
 
 body[t="Blue Star"] {
-    --background: url('https://cdna.artstation.com/p/marketplace/presentation_assets/002/893/186/large/file.jpg?1690605723');
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/bluestar.jpg');
     --theme: rgb(61, 110, 255);
     --theme-secondary: rgb(23, 37, 64);
     --text: rgb(133, 214, 255);
@@ -350,4 +350,13 @@ body[t="Purple Galaxy"] {
     --text: rgb(185, 129, 255);
     --text-secondary: rgb(185, 129, 254);
     --box: 90, 7, 79;
+}
+
+body[t="Halloween 2023"] {
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/halloween23.jpg');
+    --theme: rgba(255, 117, 24, 0.5);
+    --theme-secondary: rgb(97, 39, 0, 0.5);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 21, 97, 0;
 }
