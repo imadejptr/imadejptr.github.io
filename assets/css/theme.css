@@ -351,3 +351,12 @@ body[t="Purple Galaxy"] {
     --text-secondary: rgb(185, 129, 254);
     --box: 90, 7, 79;
 }
+
+body[t="Halloween 2023"] {
+    --background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/halloween23.jpg');
+    --theme: rgba(255, 117, 24, 0.5);
+    --theme-secondary: rgb(97, 39, 0, 0.5);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 21, 97, 0;
+}
