@@ -123,5 +123,23 @@
         "url": "h",
         "badge": "APP",
         "img": "facebook.png"
+    },
+    {
+        "name": "Pixilart",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cDovL3BpeGlsYXJ0LmNvbQ==",
+        "sys": "h",
+        "id": "15",
+        "url": "h",
+        "badge": "APP",
+        "img": "pixilart.png"
+    },
+    {
+        "name": "Aniwatch.to",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly9hbml3YXRjaC50by8=",
+        "sys": "h",
+        "id": "16",
+        "url": "h",
+        "badge": "APP",
+        "img": "aniwatch.png"
     }
 ]

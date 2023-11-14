@@ -30,8 +30,23 @@
         "source": "https://superhotgame.com/"
     },
     {
-        "name": "Slope",
-        "g": "slope",
+        "name": "Five Nights at Freddys",
+        "g": "fnaf",
+        "gameurl": "https://imadejptr.github.io/strg/fnaf/index.html",
+        "sys": "h",
+        "id": "281",
+        "url": "h",
+        "badge": "HTML5",
+        "img": "png",
+        "mame": "false",
+        "year": "2014",
+        "pub": "Scott Cawthon",
+        "desc": "Five Nights at Freddy's is an indie point-and-click survival horror video game and the first installment of the series developed by Scott Cawthon.",
+        "source": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s"
+    },
+    {
+        "name": "Slope v1.2",
+        "g": "slope-v12",
         "sys": "u",
         "id": "72",
         "url": "u",
@@ -42,6 +57,21 @@
         "pub": "Y8",
         "desc": "Slope is the ultimate running game that will put your skills to the test. Speed down on a randomized slope. The farther you go, the faster your ball travels. This game might look simple but playing this will give you extreme adrenaline rush. Just remember to avoid obstacles and those red blocks. Always be on track to get a high score and you might have your name on the leaderboard!",
         "source": "https://www.y8.com/games/slope"
+    },
+    {
+        "name": "Cluster Rush",
+        "g": "Y2x1c3Rlci1ydXNo",
+        "gameurl": "https://imadejptr.github.io/strg/Y2x1c3Rlci1ydXNo/index.html",
+        "sys": "h",
+        "id": "78",
+        "url": "h",
+        "badge": "HTML5",
+        "img": "png",
+        "mame": "false",
+        "year": "2016",
+        "pub": "Landfall",
+        "desc": "Jump from truck to truck, slide and hang on to avoid falling in the Cluster Rush, a platformer / skill game. The first levels will serve as an introduction to understand the sensations of gameplay but quickly the challenge will be tough and the game will require quickness, coordination and fast reactions. The 35 levels will test your ability to concentrate yourself and succeed them all will be a difficult task!",
+        "source": "https://www.snokido.com/game/cluster-rush"
     },
     {
         "name": "Bit-Life",
@@ -74,21 +104,6 @@
         "source": "https://orteil.dashnet.org"
     },
     {
-        "name": "Cluster Rush",
-        "g": "Y2x1c3Rlci1ydXNo",
-        "gameurl": "https://imadejptr.github.io/strg/Y2x1c3Rlci1ydXNo/index.html",
-        "sys": "h",
-        "id": "78",
-        "url": "h",
-        "badge": "HTML5",
-        "img": "png",
-        "mame": "false",
-        "year": "2016",
-        "pub": "Landfall",
-        "desc": "Jump from truck to truck, slide and hang on to avoid falling in the Cluster Rush, a platformer / skill game. The first levels will serve as an introduction to understand the sensations of gameplay but quickly the challenge will be tough and the game will require quickness, coordination and fast reactions. The 35 levels will test your ability to concentrate yourself and succeed them all will be a difficult task!",
-        "source": "https://www.snokido.com/game/cluster-rush"
-    },
-    {
         "name": "1v1.LOL",
         "g": "1v1",
         "gameurl": "/assets/xml/1v1.html",
@@ -102,35 +117,6 @@
         "pub": "JustPlay.LOL",
         "desc": "Be the last man standing in this epic multiplayer building and shooting game! Fight to survive in this epic multiplayer building and shooting game where only the last player standing wins and achieves the great and coveted victory.",
         "source": "https://www.justplay.lol/"
-    },
-    {
-        "name": "Drift Hunters",
-        "g": "drift",
-        "sys": "u",
-        "id": "11",
-        "url": "u",
-        "badge": "HTML5",
-        "img": "png",
-        "mame": "false",
-        "year": "2017",
-        "pub": "Ilya Kaminetsky",
-        "desc": "If you enjoy drift culture and jdm at all, be sure - drift hunters is for you!",
-        "source": "https://ilyakaminetsky.itch.io/drift-hunters"
-    },
-    {
-        "name": "Five Nights at Freddys",
-        "g": "fnaf",
-        "gameurl": "https://imadejptr.github.io/strg/fnaf/index.html",
-        "sys": "h",
-        "id": "281",
-        "url": "h",
-        "badge": "HTML5",
-        "img": "png",
-        "mame": "false",
-        "year": "2014",
-        "pub": "Scott Cawthon",
-        "desc": "Five Nights at Freddy's is an indie point-and-click survival horror video game and the first installment of the series developed by Scott Cawthon.",
-        "source": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s"
     },
     {
         "name": "Basket Random",
@@ -148,6 +134,35 @@
         "source": "https://www.twoplayergames.org/game/basket-random"
     },
     {
+        "name": "Drift Hunters",
+        "g": "drift",
+        "sys": "u",
+        "id": "11",
+        "url": "u",
+        "badge": "HTML5",
+        "img": "png",
+        "mame": "false",
+        "year": "2017",
+        "pub": "Ilya Kaminetsky",
+        "desc": "If you enjoy drift culture and jdm at all, be sure - drift hunters is for you!",
+        "source": "https://ilyakaminetsky.itch.io/drift-hunters"
+    },
+    {
+        "name": "Five Nights at Freddys 2",
+        "g": "fnaf2",
+        "gameurl": "https://imadejptr.github.io/strg/fnaf2/index.html",
+        "sys": "h",
+        "id": "312",
+        "url": "h",
+        "badge": "HTML5",
+        "img": "png",
+        "mame": "false",
+        "year": "2014",
+        "pub": "Scott Cawthon",
+        "desc": "Five Nights at Freddy's 2 is an indie point-and-click survival horror video game and the second game in the series, chronologically set to be a sequel to Five Nights at Freddy's 4, and the prequel to Five Nights at Freddy's.",
+        "source": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s_2"
+    },
+    {
         "name": "Minecraft",
         "g": "mc",
         "gameurl": "https://imadejptr.github.io/strg/eaglercraft/index.html",
@@ -163,19 +178,19 @@
         "source": "https://github.com/lax1dude/eaglercraftx-1.8"
     },
     {
-        "name": "Shell Shockers",
-        "g": "aHR0cHM6Ly9zaGVsbHNob2NrLmlvLw==",
-        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly9zaGVsbHNob2NrLmlvLw==",
+        "name": "Basketball Stars",
+        "g": "bstars",
+        "gameurl": "https://imadejptr.github.io/strg/bstars/index.html",
         "sys": "h",
-        "id": "269",
+        "id": "279",
         "url": "h",
         "badge": "HTML5",
         "img": "png",
         "mame": "false",
-        "year": "2017",
-        "pub": "Blue Wizard Digital",
-        "desc": "Welcome to Shell Shockers, the world’s best multiplayer egg shooter! Play one of our FOUR EGG-CITING GAME MODES and choose from EIGHT EGG-CEPTIONAL WEAPONS to shoot your eggy friends!",
-        "source": "https://shellshock.io/"
+        "year": "2020",
+        "pub": "MadPuffers",
+        "desc": "Basketball Legends 2020 is a cool 2 player basketball game. Choose your team and enter a challenging tournament against the CPU or play fun quick matches against your best friend. Control your player to perform awesome dunks and 3 pointers to win the game. Feel free to block and slap your opponent to knock him out and get the ball, and pay attention to the super shot bar on the top of the screen, once it’s fully loaded, you can use the hot special dunk from wherever you are standing, it never fails. Be the best player on the field. Enjoy Basketball Legends!",
+        "source": "https://gamedistribution.com/games/basketball-legends-2020"
     },
     {
         "name": "A Dance of Fire And Ice",
@@ -192,32 +207,18 @@
         "source": "https://fizzd.itch.io/a-dance-of-fire-and-ice"
     },
     {
-        "name": "Ball Mayhem!",
-        "g": "ball-mayhem",
-        "sys": "u",
-        "id": "628",
-        "url": "u",
-        "badge": "HTML5",
-        "img": "png",
-        "mame": "false",
-        "year": "2019",
-        "pub": "VooDoo",
-        "desc": "Enter the stadium and face the other teams in a fierce battle. Tackle everyone in sight to move forward and score a Touchdown! Show them who is the best team in the world!",
-        "source": "https://play.google.com/store/apps/details?id=com.clement.ballmayhem&hl=en&gl=US"
-    },
-    {
-        "name": "Basketball Stars",
-        "g": "bstars",
-        "gameurl": "https://imadejptr.github.io/strg/bstars/index.html",
+        "name": "Shell Shockers",
+        "g": "aHR0cHM6Ly9zaGVsbHNob2NrLmlvLw==",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly9zaGVsbHNob2NrLmlvLw==",
         "sys": "h",
-        "id": "279",
+        "id": "269",
         "url": "h",
         "badge": "HTML5",
         "img": "png",
         "mame": "false",
-        "year": "2020",
-        "pub": "MadPuffers",
-        "desc": "Basketball Legends 2020 is a cool 2 player basketball game. Choose your team and enter a challenging tournament against the CPU or play fun quick matches against your best friend. Control your player to perform awesome dunks and 3 pointers to win the game. Feel free to block and slap your opponent to knock him out and get the ball, and pay attention to the super shot bar on the top of the screen, once it’s fully loaded, you can use the hot special dunk from wherever you are standing, it never fails. Be the best player on the field. Enjoy Basketball Legends!",
-        "source": "https://gamedistribution.com/games/basketball-legends-2020"
+        "year": "2017",
+        "pub": "Blue Wizard Digital",
+        "desc": "Welcome to Shell Shockers, the world’s best multiplayer egg shooter! Play one of our FOUR EGG-CITING GAME MODES and choose from EIGHT EGG-CEPTIONAL WEAPONS to shoot your eggy friends!",
+        "source": "https://shellshock.io/"
     }
 ]

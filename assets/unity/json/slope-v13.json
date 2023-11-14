@@ -1,0 +1,17 @@
+{
+    "companyName": "Slope",
+    "productName": "Slope",
+    "dataUrl": "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/slope_newdata.unityweb",
+    "wasmCodeUrl": "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/slope_newwasmcode.unityweb",
+    "wasmFrameworkUrl": "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/slope_newwasmframework.unityweb",
+    "TOTAL_MEMORY": 268435456,
+    "graphicsAPI": [
+        "WebGL 2.0",
+        "WebGL 1.0"
+    ],
+    "webglContextAttributes": {
+        "preserveDrawingBuffer": false
+    },
+    "splashScreenStyle": "Dark",
+    "backgroundUrl": "https://cdn.glitch.me/161fba10-08d4-4007-b3c4-cf3478168729/bg-galaxy3-6.png"
+}

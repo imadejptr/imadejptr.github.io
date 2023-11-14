@@ -360,3 +360,48 @@ body[t="Halloween 2023"] {
     --text-secondary: rgb(255, 255, 255);
     --box: 21, 97, 0;
 }
+
+body[t="Shinji Ikari"] {
+    --background: url('https://images2.alphacoders.com/944/944213.png');
+    --theme: rgb(50, 69, 164);
+    --theme-secondary: rgb(63, 82, 125);
+    --text: rgb(45, 34, 98);
+    --text-secondary: rgb(112, 0, 153);
+    --box: 39, 43, 160;
+}
+
+body[t="Blue Sky"] { 
+    --background: rgb(0,21,31); 
+    --theme: rgb(4,145,215); 
+    --theme-secondary: rgb(18,113,202); 
+    --text: rgb(255,255,255); 
+    --text-secondary: rgb(255,255,255); 
+    --box: 18,133,202; 
+}
+
+body[t="Cherry Blossom"] { 
+    --background: rgb(242,145,150); 
+    --theme: rgb(209,102,102); 
+    --theme-secondary: rgb(122,33,0); 
+    --text: rgb(255,255,255); 
+    --text-secondary: rgb(0,0,0); 
+    --box: 255,87,129; 
+}
+
+body[t="Bakugo"] {
+    --background: url('https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/bakugo.png');
+    --theme: rgb(255, 68, 0);
+    --theme-secondary: rgb(12, 100, 30);
+    --text: rgb(0, 0, 0);
+    --text-secondary: rgb(0, 0, 0);
+    --box: 12, 100, 30;
+}
+
+body[t="Pretty Sunset :]"] { 
+    --background: linear-gradient(to top left, rgb(255, 213, 0) 0%, rgb(200, 0, 255) 100%); 
+    --theme: rgb(163,103,0); 
+    --theme-secondary: rgb(204,0,0); 
+    --text: rgb(255,234,0); 
+    --text-secondary: rgb(157,168,0); 
+    --box: 194,39,0; 
+}

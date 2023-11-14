@@ -1,19 +1,9 @@
 <script src="TemplateData/UnityProgress.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6/css/all.css" />
+<link rel="stylesheet" href="https://raw.githubusercontent.com/vanphonggiang/font-awesome-6-pro/main/css/all.css" />
 <link rel="stylesheet" href="TemplateData/style.css" />
 
-<style>
-    button {
-        position: absolute;
-        bottom: 8px;
-        right: 16px;
-        font-size: 36px;
-        color: white;
-        background-color: rgba(51, 51, 51, 0.5);
-        border-radius: 10px;
-    }
-</style>
 <body></body>
+
 <script type="text/javascript">
 
     var gameInstance;
@@ -27,6 +17,10 @@
 
     window.onload = function () {
 
+        if (game == "slope-v13") {
+            document.getElementById("tag").style.display = "block";
+        }
+
         gameInstance = UnityLoader.instantiate("gameContainer", "json/" + game + ".json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function () { UnityProgress(gameInstance, "complete") } } });
     }
 </script>
@@ -34,6 +28,7 @@
 <div class="webgl-content">
     <center>
         <div id="gameContainer" style="width: 100%; height: 100%; margin: auto;"></div>
+        <div id="tag" class="tag">MC🌙</div>
         <button onclick="gameInstance.SetFullscreen(1)"><i class="fa-solid fa-expand"></i></button>
     </center>
 </div>

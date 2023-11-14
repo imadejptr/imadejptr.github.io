@@ -262,7 +262,7 @@ a.box {
     align-items: center;
 }
 
-#libtot {
+#libtot, .newm {
     text-align: center;
 }
 
@@ -741,4 +741,74 @@ partners {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     margin: 40px;
+}
+
+#time {
+    font-weight: bold;
+}
+
+.mclb-list {
+    line-height: 75px;
+    width: 60%;
+    background: var(--theme);
+    border-radius: .5em;
+    padding: .5em;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px;
+    border: 2px solid var(--text);
+}
+
+.mclb-list img {
+    float: left;
+    width: 75px;
+    border-radius: .5em;
+    vertical-align: middle;
+    height: fit-content;
+    display: inline-flex;
+    border: 2px solid var(--text);
+}
+
+.mclb-list .mcname {
+    float: left;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+.mclb-list .score {
+    float: right;
+    position: relative;
+    display: block;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.mclb-list:nth-child(1) {
+    background: gold;
+}
+
+.mclb-list:nth-child(2) {
+    background: silver;
+}
+
+.mclb-list:nth-child(3) {
+    background: #cd7f32;
+}
+
+.newm span {
+    background-color: var(--theme);
+    padding: 7px;
+    border-radius: .5em;
+}
+
+.dsc {
+    background-color: #7289da; 
+    padding: 5px; 
+    border-radius: .5em; 
+    text-decoration: none; 
+    color: #ffffff;
 }

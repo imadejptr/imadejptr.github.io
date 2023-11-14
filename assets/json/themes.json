@@ -58,5 +58,35 @@
         "background": "url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/purplegalaxy.jpg')",
         "color": "rgb(185, 129, 255)",
         "maker": "CHICKENBOY923YAY"
+    },
+    {
+        "theme": "Shinji Ikari",
+        "background": "rgb(255,255,255)",
+        "color": "rgb(45,34,98)",
+        "maker": "EXPO"
+    },
+    {
+        "theme": "Blue Sky",
+        "background": "rgb(0,21,31)",
+        "color": "rgb(255,255,255)",
+        "maker": "Lstriker1268"
+    },
+    {
+        "theme": "Cherry Blossom",
+        "background": "rgb(242,145,150)",
+        "color": "rgb(255,255,255)",
+        "maker": "417Anyhoo"
+    },
+    {
+        "theme": "Bakugo",
+        "background": "url('https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/bakugo.png')",
+        "color": "rgb(0, 0, 0)",
+        "maker": "divil_got"
+    },
+    {
+        "theme": "Pretty Sunset :]",
+        "background": "linear-gradient(to top left, rgb(255, 213, 0) 0%, rgb(200, 0, 255) 100%)",
+        "color": "rgb(255,234,0)",
+        "maker": "ZirkaYaskrava"
     }
 ]

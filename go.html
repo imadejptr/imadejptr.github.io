@@ -98,9 +98,11 @@
       })
       .then(function (data) {
         games = data;
-        console.log(games);
         games.forEach(game => {
           if (game.id != params.get("id")) return
+          if (game.id == 644) {
+            window.location.href = "/moony.html"
+          }
           document.title = `${game.name} / imadejptr`;
           document.querySelector(".route").innerHTML = '<a href="/games.html">GAMES</a> / <a href="/s.html?sys=' +
             game.badge + '">' + game.badge + '</a> / ' + game.name;
