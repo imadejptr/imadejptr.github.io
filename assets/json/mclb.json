@@ -12,12 +12,12 @@
     },
     {
         "name": "tapiocabawls",
-        "score": "61",
+        "score": "63",
         "img": "0"
     },
     {
         "name": "vanny",
-        "score": "53",
+        "score": "193",
         "img": "0"
     },
     {
@@ -39,6 +39,18 @@
     {
         "name": "vixle_",
         "score": "101",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "zeph",
+        "score": "144",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "abdushu",
+        "score": "114",
         "img": "1",
         "ext": "png"
     }
