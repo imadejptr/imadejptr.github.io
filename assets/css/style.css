@@ -789,14 +789,17 @@ partners {
 
 .mclb-list:nth-child(1) {
     background: gold;
+    color: black;
 }
 
 .mclb-list:nth-child(2) {
     background: silver;
+    color: black;
 }
 
 .mclb-list:nth-child(3) {
     background: #cd7f32;
+    color: black;
 }
 
 .newm span {

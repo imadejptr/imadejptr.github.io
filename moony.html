@@ -64,6 +64,10 @@
       <h3>Leaderboard:</h3>
       <div class="desc-box">This is the Top 10. Top 3 win prizes. You have <span id="time"></span> left till the end of
         the challenge.
+        <p style="text-align: center;">The leaderboard updates daily, and if you want your pfp to be shown then join the
+          discord server.</p>
+        <p style="text-align: center;">Till then you have to settle with 20 different 🌙 designs I made that might just
+          convince you not to join the server.</p>
         <ol id="mclb">
         </ol>
       </div>
@@ -142,6 +146,8 @@
 
   <script>
 
+
+
     fetch("/assets/json/mclb.json")
       .then(function (response) {
         return response.json();
@@ -159,10 +165,18 @@
         return b.score - a.score
       })
       for (var i = 0; i <= data.length; i++) {
-        var div = document.createElement("li");
-        div.className = "mclb-list";
-        div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/' + data[i].name + '-d' + data[i].img + '.jpg"><span class="mcname">' + data[i].name + '</span><span class="score">' + data[i].score + "</span>";
-        mainContainer.appendChild(div);
+        if (data[i].img == "0") {
+          let rand = Math.floor(Math.random() * 20) + 1;
+          var div = document.createElement("li");
+          div.className = "mclb-list";
+          div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/dmoon-' + rand + '.png"><span class="mcname">' + data[i].name + '</span><span class="score">' + data[i].score + "</span>";
+          mainContainer.appendChild(div);
+        } else {
+          var div = document.createElement("li");
+          div.className = "mclb-list";
+          div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/' + data[i].name + '-d' + data[i].img + "." + data[i].ext + '"><span class="mcname">' + data[i].name + '</span><span class="score">' + data[i].score + "</span>";
+          mainContainer.appendChild(div);
+        }
       }
     }
     var countDownDate = new Date("Nov 30, 2023 23:59:59").getTime();
@@ -186,6 +200,7 @@
         document.getElementById("time").innerHTML = "NO TIME";
       }
     }, 1000);
+
   </script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/rand.js"></script>

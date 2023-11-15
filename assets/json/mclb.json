@@ -1,7 +1,45 @@
 [
     {
         "name": "th3skeleton",
-        "score": "50",
-        "img": "1"
+        "score": "62",
+        "img": "1",
+        "ext": "jpg"
+    },
+    {
+        "name": "bigtom06",
+        "score": "184",
+        "img": "0"
+    },
+    {
+        "name": "tapiocabawls",
+        "score": "61",
+        "img": "0"
+    },
+    {
+        "name": "vanny",
+        "score": "53",
+        "img": "0"
+    },
+    {
+        "name": "TheNooie",
+        "score": "104",
+        "img": "0"
+    },
+    {
+        "name": "jaymo123_61733",
+        "score": "88",
+        "img": "0"
+    },
+    {
+        "name": "gunit2020",
+        "score": "120",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "vixle_",
+        "score": "101",
+        "img": "1",
+        "ext": "png"
     }
 ]
