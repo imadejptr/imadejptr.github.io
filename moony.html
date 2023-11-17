@@ -145,10 +145,7 @@
   </center>
 
   <script>
-
-
-
-    fetch("/assets/json/mclb.json")
+    fetch("/assets/json/slope/" + day + ".json")
       .then(function (response) {
         return response.json();
       })
@@ -161,24 +158,25 @@
 
     function mclb(data) {
       var mainContainer = document.getElementById("mclb");
-      data.sort(function (a, b) {
+      let cake = data.sort(function (a, b) {
         return b.score - a.score
-      })
-      for (var i = 0; i <= data.length; i++) {
-        if (data[i].img == "0") {
+      }).slice(0, 10);
+      for (var i = 0; i <= cake.length; i++) {
+        if (cake[i].img == "0") {
           let rand = Math.floor(Math.random() * 20) + 1;
           var div = document.createElement("li");
           div.className = "mclb-list";
-          div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/dmoon-' + rand + '.png"><span class="mcname">' + data[i].name + '</span><span class="score">' + data[i].score + "</span>";
+          div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/dmoon-' + rand + '.png"><span class="mcname">' + cake[i].name + '</span><span class="score">' + cake[i].score + "</span>";
           mainContainer.appendChild(div);
         } else {
           var div = document.createElement("li");
           div.className = "mclb-list";
-          div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/' + data[i].name + '-d' + data[i].img + "." + data[i].ext + '"><span class="mcname">' + data[i].name + '</span><span class="score">' + data[i].score + "</span>";
+          div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/' + cake[i].name + '-d' + cake[i].img + "." + cake[i].ext + '"><span class="mcname">' + cake[i].name + '</span><span class="score">' + cake[i].score + "</span>";
           mainContainer.appendChild(div);
         }
       }
     }
+
     var countDownDate = new Date("Nov 30, 2023 23:59:59").getTime();
 
     var x = setInterval(function () {
