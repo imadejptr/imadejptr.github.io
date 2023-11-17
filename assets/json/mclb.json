@@ -1,14 +1,15 @@
 [
     {
         "name": "th3skeleton",
-        "score": "62",
+        "score": "65",
         "img": "1",
         "ext": "jpg"
     },
     {
         "name": "bigtom06",
-        "score": "184",
-        "img": "0"
+        "score": "229",
+        "img": "1", 
+        "ext": "png"
     },
     {
         "name": "tapiocabawls",
@@ -45,12 +46,33 @@
     {
         "name": "zeph",
         "score": "144",
-        "img": "1",
-        "ext": "png"
+        "img": "0"
     },
     {
         "name": "abdushu",
         "score": "114",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "nubs5434",
+        "score": "61",
+        "img": "0"
+    },
+    {
+        "name": "GuestA11A",
+        "score": "62",
+        "img": "0"
+    },
+    {
+        "name": "kyle4961",
+        "score": "99",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "mcsabo",
+        "score": "119",
         "img": "1",
         "ext": "png"
     }
