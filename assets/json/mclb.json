@@ -1,7 +1,7 @@
 [
     {
         "name": "th3skeleton",
-        "score": "65",
+        "score": "131",
         "img": "1",
         "ext": "jpg"
     },
@@ -73,6 +73,12 @@
     {
         "name": "mcsabo",
         "score": "119",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "calebbb1",
+        "score": "171",
         "img": "1",
         "ext": "png"
     }
