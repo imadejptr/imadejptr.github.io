@@ -1,3 +1,4 @@
+
 [
     {
         "name": "th3skeleton",
@@ -56,8 +57,9 @@
     },
     {
         "name": "nubs5434",
-        "score": "61",
-        "img": "0"
+        "score": "130",
+        "img": "1",
+        "ext": "png"
     },
     {
         "name": "GuestA11A",
@@ -78,7 +80,7 @@
     },
     {
         "name": "calebbb1",
-        "score": "171",
+        "score": "301",
         "img": "1",
         "ext": "png"
     },
