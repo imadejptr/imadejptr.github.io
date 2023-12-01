@@ -41,13 +41,14 @@
     {
         "name": "vixle_",
         "score": "101",
-        "img": "1",
+        "img": "2",
         "ext": "png"
     },
     {
         "name": "zeph",
         "score": "144",
-        "img": "0"
+        "img": "2",
+        "ext": "png"
     },
     {
         "name": "abdushu",
@@ -68,7 +69,7 @@
     },
     {
         "name": "kyle4961",
-        "score": "252",
+        "score": "323",
         "img": "1",
         "ext": "png"
     },
