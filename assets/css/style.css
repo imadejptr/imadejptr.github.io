@@ -815,3 +815,14 @@ partners {
     text-decoration: none; 
     color: #ffffff;
 }
+
+.moonywoo {
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.moonywoo a {
+    color: var(--text);
+}
