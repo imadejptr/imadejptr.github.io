@@ -1,13 +1,14 @@
+
 [
     {
         "name": "th3skeleton",
-        "score": "65",
+        "score": "131",
         "img": "1",
         "ext": "jpg"
     },
     {
         "name": "bigtom06",
-        "score": "229",
+        "score": "376",
         "img": "1", 
         "ext": "png"
     },
@@ -40,13 +41,14 @@
     {
         "name": "vixle_",
         "score": "101",
-        "img": "1",
+        "img": "2",
         "ext": "png"
     },
     {
         "name": "zeph",
         "score": "144",
-        "img": "0"
+        "img": "2",
+        "ext": "png"
     },
     {
         "name": "abdushu",
@@ -56,8 +58,9 @@
     },
     {
         "name": "nubs5434",
-        "score": "61",
-        "img": "0"
+        "score": "130",
+        "img": "1",
+        "ext": "png"
     },
     {
         "name": "GuestA11A",
@@ -66,13 +69,25 @@
     },
     {
         "name": "kyle4961",
-        "score": "99",
+        "score": "323",
         "img": "1",
         "ext": "png"
     },
     {
         "name": "mcsabo",
         "score": "119",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "calebbb1",
+        "score": "301",
+        "img": "1",
+        "ext": "png"
+    },
+    {
+        "name": "yokakoi4",
+        "score": "302",
         "img": "1",
         "ext": "png"
     }
