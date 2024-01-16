@@ -140,7 +140,7 @@
         style="text-decoration: none;" href="/logs.html">Logs</a> // <a class="f-badge" style="text-decoration: none;"
         href="/dmca.html">DMCA</a> // <a class="f-badge" style="text-decoration: none;" href="/sites.html">Mirror
         Sites</a> //
-      <a>All games are made from other publishers</a> // <span>Copyright © 2022-2023 imadejptr</span>
+      <a>All games are made from other publishers</a> // <span>imadejptr 2022-2024</span>
     </p>
   </center>
 
@@ -157,19 +157,19 @@
       });
 
     function mclb(data) {
-      var mainContainer = document.getElementById("mclb");
+      let mainContainer = document.getElementById("mclb");
       let cake = data.sort(function (a, b) {
         return b.score - a.score
       }).slice(0, 10);
-      for (var i = 0; i <= cake.length; i++) {
+      for (let i = 0; i <= cake.length; i++) {
         if (cake[i].img == "0") {
           let rand = Math.floor(Math.random() * 20) + 1;
-          var div = document.createElement("li");
+          let div = document.createElement("li");
           div.className = "mclb-list";
           div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/dmoon-' + rand + '.png"><span class="mcname">' + cake[i].name + '</span><span class="score">' + cake[i].score + "</span>";
           mainContainer.appendChild(div);
         } else {
-          var div = document.createElement("li");
+          let div = document.createElement("li");
           div.className = "mclb-list";
           div.innerHTML = '<img src="https://cdn.glitch.me/a65741ca-e4a3-4b9c-9f87-1568672f0160/' + cake[i].name + '-d' + cake[i].img + "." + cake[i].ext + '"><span class="mcname">' + cake[i].name + '</span><span class="score">' + cake[i].score + "</span>";
           mainContainer.appendChild(div);
@@ -177,18 +177,18 @@
       }
     }
 
-    var countDownDate = new Date("Nov 30, 2023 23:59:59").getTime();
+    let countDownDate = new Date("Nov 30, 2023 23:59:59").getTime();
 
-    var x = setInterval(function () {
+    let x = setInterval(function () {
 
-      var now = new Date().getTime();
+      let now = new Date().getTime();
 
-      var distance = countDownDate - now;
+      let distance = countDownDate - now;
 
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       document.getElementById("time").innerHTML = days + "d " + hours + "h "
         + minutes + "m " + seconds + "s ";

@@ -27,26 +27,24 @@ body {
 
 #nav a {
     display: inline-block;
-    padding: 20px;
-    color: var(--theme);
+    margin: 10px;
+    padding: 10px;
+    color: var(--text);
     text-decoration: none;
     font-weight: bold;
     transition: 0.2s;
     font-size: xx-large;
     border-radius: 10px;
+    background-color: rgba(var(--box), 0.5);
+    border: 2px solid rgb(var(--box));
 }
 
 #nav a:hover {
-    color: var(--text);
+    border: 2px solid var(--text);
 }
 
-.badge {
-    font-family: 'Source Code Pro', monospace;
-    background-color: var(--theme);
+a {
     color: var(--text-secondary);
-    padding: 5px;
-    border-radius: 7px;
-    list-style: none;
 }
 
 .box-info {
@@ -179,6 +177,7 @@ a.box {
 }
 
 .badge {
+    font-family: 'Source Code Pro', monospace;
     position: absolute;
     top: 10px;
     background-color: rgb(var(--box));
@@ -189,6 +188,7 @@ a.box {
     padding-bottom: 2px;
     font-size: 12px;
     border-radius: 0 4px 4px 0;
+    list-style: none;
 }
 
 .f-badge {
@@ -262,7 +262,8 @@ a.box {
     align-items: center;
 }
 
-#libtot, .newm {
+#libtot,
+.newm {
     text-align: center;
 }
 
@@ -325,8 +326,10 @@ grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     margin: 50px;
-    justify-content: center; /* centers items horizontally */
-    align-items: center; /* centers items vertically */
+    justify-content: center;
+    /* centers items horizontally */
+    align-items: center;
+    /* centers items vertically */
 }
 
 systems {
@@ -555,7 +558,9 @@ systems {
     font-style: italic;
 }
 
-#themes, #themes-com, #ab {
+#themes,
+#tc,
+#ab {
     background-color: rgba(var(--box), 0.5);
     padding: 20px 20px 20px 20px;
     border-radius: 1em;
@@ -567,6 +572,7 @@ systems {
     background-color: rgba(var(--box), 0.7);
     padding: 1em;
     text-align: center;
+    border-radius: 1em;
 }
 
 .abt p {
@@ -588,6 +594,11 @@ systems {
     font-size: larger;
     color: var(--text);
     list-style-position: inside;
+    border-radius: 1em;
+}
+
+.group2 a {
+    color: var(--text-secondary);
 }
 
 .log-desc {
@@ -809,10 +820,10 @@ partners {
 }
 
 .dsc {
-    background-color: #7289da; 
-    padding: 5px; 
-    border-radius: .5em; 
-    text-decoration: none; 
+    background-color: #7289da;
+    padding: 5px;
+    border-radius: .5em;
+    text-decoration: none;
     color: #ffffff;
 }
 
@@ -825,4 +836,66 @@ partners {
 
 .moonywoo a {
     color: var(--text);
+}
+
+.ul_prev,
+.ul_next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: var(--theme);
+    font-weight: bold;
+    font-size: 30px;
+    transition: .2s ease;
+}
+
+.ul_prev {
+    left: 0%;
+}
+
+.ul_next {
+    right: 0%;
+}
+
+.ul_prev:hover,
+.ul_next:hover {
+    color: var(--text);
+    background-color: var(--theme);
+}
+
+.pee {
+    width: 95%;
+    position: relative;
+    margin: auto;
+}
+
+/* first concept for new tag */
+.new-class {
+    font-style: normal;
+}
+
+/* 
+2nd and final version of the new tag
+I'm happy I got this one done.
+Adding a lot of games when you can only show
+15 games at a time, its hard to actually see
+the newest games. This bothered me for a bit so I fixed it :)
+*/
+.new-badge {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    position: absolute;
+    top: 130px;
+    background-color: rgb(255, 69, 69);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+    list-style: none;
 }

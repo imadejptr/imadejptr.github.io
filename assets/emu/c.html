@@ -1,3 +1,27 @@
+<!-- 
+          _____                    _____                _____                    _____          
+         /\    \                  /\    \              /\    \                  /\    \         
+        /::\    \                /::\    \            /::\    \                /::\    \        
+        \:::\    \              /::::\    \           \:::\    \              /::::\    \       
+         \:::\    \            /::::::\    \           \:::\    \            /::::::\    \      
+          \:::\    \          /:::/\:::\    \           \:::\    \          /:::/\:::\    \     
+           \:::\    \        /:::/__\:::\    \           \:::\    \        /:::/__\:::\    \    
+           /::::\    \      /::::\   \:::\    \          /::::\    \      /::::\   \:::\    \   
+  _____   /::::::\    \    /::::::\   \:::\    \        /::::::\    \    /::::::\   \:::\    \  
+ /\    \ /:::/\:::\    \  /:::/\:::\   \:::\____\      /:::/\:::\    \  /:::/\:::\   \:::\____\ 
+/::\    /:::/  \:::\____\/:::/  \:::\   \:::|    |    /:::/  \:::\____\/:::/  \:::\   \:::|    |
+\:::\  /:::/    \::/    /\::/    \:::\  /:::|____|   /:::/    \::/    /\::/   |::::\  /:::|____|
+ \:::\/:::/    / \/____/  \/_____/\:::\/:::/    /   /:::/    / \/____/  \/____|:::::\/:::/    / 
+  \::::::/    /                    \::::::/    /   /:::/    /                 |:::::::::/    /  
+   \::::/    /                      \::::/    /   /:::/    /                  |::|\::::/    /   
+    \::/    /                        \::/____/    \::/    /                   |::| \::/____/    
+     \/____/                          ~~           \/____/                    |::|  ~|          
+                                                                              |::|   |          
+                                                                              \::|   |          
+                                                                               \:|   |          
+                                                                                \|___|          
+                                                                                                
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +35,7 @@
         html {
             height: 100%;
             margin: 0;
+            background-color: var(--text);
         }
 
         #game {
@@ -26,15 +51,18 @@
     </div>
     <script src="data/loader.js" defer></script>
     <script>
+        var style = getComputedStyle(document.body)
+        console.log(style.getPropertyValue('--text')) // #336699
+
         const params = new URLSearchParams(window.location.search);
-        var game = params.get('g');
-        var id = params.get('id');
-        var sys = params.get('sys');
-        var EJS_player = "#game";
-        var EJS_core = sys;
-        var EJS_gameID = id;
-        var EJS_gameUrl;
-        var EJS_biosUrl;
+        let game = params.get('g');
+        let id = params.get('id');
+        let sys = params.get('sys');
+        let EJS_player = "#game";
+        let EJS_core = sys;
+        let EJS_gameID = id;
+        let EJS_gameUrl;
+        let EJS_biosUrl;
         if (sys == "psx") {
             EJS_gameUrl = "https://storage.googleapis.com/imadejptr-v2/old/" + sys + "/" + game + ".zip";
             EJS_biosUrl = "https://cdn.glitch.me/390c93a7-960a-46dc-86c4-e2c242f9dcc8/scph5501.bin"; // this is for arcade games :>
@@ -44,9 +72,9 @@
         } else {
             EJS_gameUrl = "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/" + game + "-" + sys + ".zip";
         }
-        var EJS_pathtodata = "data/";
-        var EJS_oldCores = true;
-        var EJS_mameCore = params.get('mc'); // mame core options
+        let EJS_pathtodata = "data/";
+        let EJS_oldCores = true;
+        let EJS_mameCore = params.get('mc'); // mame core options
     </script>
 </body>
 

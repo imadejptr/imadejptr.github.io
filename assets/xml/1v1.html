@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/gh/h3sj7v2f6k/sf5fg7eh@b7eeadcaf56b0b1604d247fc59dcaf1ced44a8ba/UnityProgress.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ko1ov/to@d0d015146c9fe9467277b549b4637d9a7a644165/UnityLoader.js"></script>
 <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/ko1ov/to@60eea3a396639d715690dc34ef485f0a799295ec/get.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+      let gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/ko1ov/to@60eea3a396639d715690dc34ef485f0a799295ec/get.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
 </head>
 <body>

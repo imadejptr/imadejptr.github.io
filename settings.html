@@ -1,3 +1,27 @@
+<!-- 
+          _____                    _____                _____                    _____          
+         /\    \                  /\    \              /\    \                  /\    \         
+        /::\    \                /::\    \            /::\    \                /::\    \        
+        \:::\    \              /::::\    \           \:::\    \              /::::\    \       
+         \:::\    \            /::::::\    \           \:::\    \            /::::::\    \      
+          \:::\    \          /:::/\:::\    \           \:::\    \          /:::/\:::\    \     
+           \:::\    \        /:::/__\:::\    \           \:::\    \        /:::/__\:::\    \    
+           /::::\    \      /::::\   \:::\    \          /::::\    \      /::::\   \:::\    \   
+  _____   /::::::\    \    /::::::\   \:::\    \        /::::::\    \    /::::::\   \:::\    \  
+ /\    \ /:::/\:::\    \  /:::/\:::\   \:::\____\      /:::/\:::\    \  /:::/\:::\   \:::\____\ 
+/::\    /:::/  \:::\____\/:::/  \:::\   \:::|    |    /:::/  \:::\____\/:::/  \:::\   \:::|    |
+\:::\  /:::/    \::/    /\::/    \:::\  /:::|____|   /:::/    \::/    /\::/   |::::\  /:::|____|
+ \:::\/:::/    / \/____/  \/_____/\:::\/:::/    /   /:::/    / \/____/  \/____|:::::\/:::/    / 
+  \::::::/    /                    \::::::/    /   /:::/    /                 |:::::::::/    /  
+   \::::/    /                      \::::/    /   /:::/    /                  |::|\::::/    /   
+    \::/    /                        \::/____/    \::/    /                   |::| \::/____/    
+     \/____/                          ~~           \/____/                    |::|  ~|          
+                                                                              |::|   |          
+                                                                              \::|   |          
+                                                                               \:|   |          
+                                                                                \|___|          
+                                                                                                
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,21 +72,25 @@
     <li><a onclick="RandomGame();">Random</a></li>
   </ul>
   <center>
-    <h1>The "about:blank" Cloaker</h1>
     <div id="ab">
+      <h1>The "about:blank" Cloaker</h1>
       <p style="text-align: center;">When you click the button below, it'll send you to a about:blank page with this
         website still on it :></p>
       <button class="ab" onclick="ab()">about:blank</button>
     </div>
-    <h1>Themes</h1>
-    <h4 id="t_info"></h4>
-    <button style="margin-bottom: 1em;" class="ab" onclick="RandomTheme()">Shuffle Theme</button>
+    <br>
     <div id="themes">
+      <h1>Themes</h1>
+      <h4 id="t_info"></h4>
+      <div>
+        <button style="margin-bottom: 1em;" class="ab" onclick="RandomTheme()">Shuffle Theme</button>
+      </div>
       <button class="theme-btn" style="background: #00151f; color: #c88b3a"
         onclick="setTheme('default')">DEFAULT<br><span class="maker">Made by: imadejptr</span></button><button
         class="theme-btn" style="background: #e2e2e2; color: #c88b3a" onclick="setTheme('light')">LIGHT<br><span
-          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
-        style="background: #000033; color: white" onclick="setTheme('emugalaxy')">EMUGALAXY<br><span class="maker">Made
+          class="maker">Made by:
+          imadejptr</span></button><button class="theme-btn" style="background: #000033; color: white"
+        onclick="setTheme('emugalaxy')">EMUGALAXY<br><span class="maker">Made
           by: imadejptr</span></button><button class="theme-btn" style="background: #6fd251; color: white"
         onclick="setTheme('yoshi')">YOSHI<br><span class="maker">Made by: imadejptr</span></button><button
         class="theme-btn" style="background: #7289da; color: white" onclick="setTheme('discord')">DISCORD<br><span
@@ -94,11 +122,12 @@
           imadejptr</span></button><button class="theme-btn" style="background: #F3DFBF; color: #901403"
         onclick="setTheme('BARF')">BARF<br><span class="maker">Made by: Dom :&gt;</span></button><button
         class="theme-btn" style="background: #000000; color: #620000" onclick="setTheme('Meatball')">MEATBALL<br><span
-          class="maker">Made by: when0200</span></button><button class="theme-btn"
-        style="background: #300350; color: #f9ac53" onclick="setTheme('Vaporwave')">VAPORWAVE<br><span
-          class="maker">Made by: pxnzu</span></button><button class="theme-btn" style="background: black; color: white"
-        onclick="setTheme('Cooper :)')">COOPER :)<br><span class="maker">Made by: imadejptr</span></button><button
-        class="theme-btn" style="background: linear-gradient(to bottom right, #7f7fd5 0%, #91eae4 100%); color: black"
+          class="maker">Made
+          by: when0200</span></button><button class="theme-btn" style="background: #300350; color: #f9ac53"
+        onclick="setTheme('Vaporwave')">VAPORWAVE<br><span class="maker">Made by: pxnzu</span></button><button
+        class="theme-btn" style="background: black; color: white" onclick="setTheme('Cooper :)')">COOPER :)<br><span
+          class="maker">Made by: imadejptr</span></button><button class="theme-btn"
+        style="background: linear-gradient(to bottom right, #7f7fd5 0%, #91eae4 100%); color: black"
         onclick="setTheme('Azur Lane')">AZUR LANE<br><span class="maker">Made by: imadejptr</span></button><button
         class="theme-btn" style="background: linear-gradient(to right, #f12711 0%, #f5af19 100%); color: black"
         onclick="setTheme('Flame')">FLAME<br><span class="maker">Made by: imadejptr</span></button><button
@@ -111,13 +140,17 @@
         onclick="setTheme('Snow')">SNOW<br><span class="maker">Made by: snouwu</span></button><button class="theme-btn"
         style="background: rgb(194, 117, 144); color: rgb(237, 222, 229)" onclick="setTheme('Pancake')">PANCAKE<br><span
           class="maker">Made by: ThePancakeQueen</span></button>
-      <button class="theme-btn" style="background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/halloween23.jpg'); color: rgb(237, 222, 229)"
+      <button class="theme-btn"
+        style="background: url('https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/halloween23.jpg'); color: rgb(237, 222, 229)"
         onclick="setTheme('Halloween 2023')">HALLOWEEN 2023<br><span class="maker">Made by: imadejptr</span></button>
     </div>
-    <h1>Community Themes</h1>
-    <h3>Wanna make your own? Head over to <a href="https://imadejptr.github.io/thememaker/"
-        target="_blank">https://imadejptr.github.io/thememaker/</a> and get started with a few clicks</h3>
-    <div id="themes-com">
+    <br>
+    <div id="tc">
+      <h1>Community Themes</h1>
+      <h3>HUGE NEW UPDATE! Head over to <a href="https://imadejptr.github.io/thememaker/"
+          target="_blank">https://imadejptr.github.io/thememaker/</a> and give our new theme maker a shot!</h3>
+      <div id="themes-com">
+      </div>
     </div>
   </center>
   <p class="social-footer-menu">
@@ -127,15 +160,11 @@
       style="text-decoration: none;" href="/logs.html">Logs</a> // <a class="f-badge" style="text-decoration: none;"
       href="/dmca.html">DMCA</a> // <a class="f-badge" style="text-decoration: none;" href="/sites.html">Mirror
       Sites</a> //
-    <a>All games are made from other publishers</a> // <span>Copyright © 2022-2023 imadejptr</span>
+    <a>All games are made from other publishers</a> // <span>imadejptr 2022-2024</span>
   </p>
 </body>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/jquery-3.6.4.min.js"></script>
+<script src="assets/js/jquery-3.7.1.min.js"></script>
 <script src="assets/js/settings.js"></script>
-
-<script>
-
-</script>
 
 </html>

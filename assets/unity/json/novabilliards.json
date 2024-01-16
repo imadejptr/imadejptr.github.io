@@ -1,0 +1,20 @@
+{
+  "TOTAL_MEMORY": 268435456,
+  "dataUrl": "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/novabillard.data.unityweb",
+  "asmCodeUrl": "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/novabillard.asm.code.unityweb",
+  "asmMemoryUrl": "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/novabillard.asm.memory.unityweb",
+  "asmFrameworkUrl": "https://cdn.glitch.me/e9e21b58-be83-4e9b-bb62-3d95285f3628/novabillard.asm.framework.unityweb",
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "backgroundUrl": "https://cdn.glitch.me/161fba10-08d4-4007-b3c4-cf3478168729/bg-galaxy3-6.png",
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20",
+  "cacheControl": {
+    "default": "must-revalidate"
+  }
+}

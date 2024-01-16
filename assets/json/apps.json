@@ -141,5 +141,14 @@
         "url": "h",
         "badge": "APP",
         "img": "aniwatch.png"
+    },
+    {
+        "name": "Geforce NOW",
+        "gameurl": "https://yandhi.herokuapp.com/trgr.html?url=aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tLw==",
+        "sys": "h",
+        "id": "17",
+        "url": "h",
+        "badge": "APP",
+        "img": "geforce.png"
     }
 ]

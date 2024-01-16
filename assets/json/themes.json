@@ -88,5 +88,23 @@
         "background": "linear-gradient(to top left, rgb(255, 213, 0) 0%, rgb(200, 0, 255) 100%)",
         "color": "rgb(255,234,0)",
         "maker": "ZirkaYaskrava"
+    },
+    {
+        "theme": "Cool Colors",
+        "background": "linear-gradient(to bottom, #a764dd 0%, #00aeff 100%)",
+        "color": "rgb(255, 255, 255)",
+        "maker": "ItzTosti!"
+    },
+    {
+        "theme": "light blue 2",
+        "background": "linear-gradient(to left, #1b4a5f 0%, #20adee 100%)",
+        "color": "rgb(255, 255, 255)",
+        "maker": "ERRORv3"
+    },
+    {
+        "theme": "Preimer Leugee",
+        "background": "rgb(107, 126, 219)",
+        "color": "rgb(255, 255, 255)",
+        "maker": "BlakeVYUHefwv"
     }
 ]

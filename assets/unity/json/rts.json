@@ -1,0 +1,18 @@
+{
+    "companyName": "New Eich Games",
+    "productName": "Rooftop Snipers",
+    "dataUrl": "https://cdn.glitch.global/e9e21b58-be83-4e9b-bb62-3d95285f3628/RooftopSnipers.data.unityweb",
+    "asmCodeUrl": "https://cdn.glitch.global/e9e21b58-be83-4e9b-bb62-3d95285f3628/RooftopSnipers.asm.code.unityweb",
+    "asmMemoryUrl": "https://cdn.glitch.global/e9e21b58-be83-4e9b-bb62-3d95285f3628/RooftopSnipers.asm.memory.unityweb",
+    "asmFrameworkUrl": "https://cdn.glitch.global/e9e21b58-be83-4e9b-bb62-3d95285f3628/RooftopSnipers.asm.framework.unityweb",
+    "TOTAL_MEMORY": 268435456,
+    "graphicsAPI": [
+        "WebGL 2.0",
+        "WebGL 1.0"
+    ],
+    "webglContextAttributes": {
+        "preserveDrawingBuffer": false
+    },
+    "splashScreenStyle": "Dark",
+    "backgroundUrl": "https://cdn.glitch.me/161fba10-08d4-4007-b3c4-cf3478168729/bg-galaxy3-6.png"
+}

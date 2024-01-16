@@ -1,3 +1,27 @@
+<!-- 
+          _____                    _____                _____                    _____          
+         /\    \                  /\    \              /\    \                  /\    \         
+        /::\    \                /::\    \            /::\    \                /::\    \        
+        \:::\    \              /::::\    \           \:::\    \              /::::\    \       
+         \:::\    \            /::::::\    \           \:::\    \            /::::::\    \      
+          \:::\    \          /:::/\:::\    \           \:::\    \          /:::/\:::\    \     
+           \:::\    \        /:::/__\:::\    \           \:::\    \        /:::/__\:::\    \    
+           /::::\    \      /::::\   \:::\    \          /::::\    \      /::::\   \:::\    \   
+  _____   /::::::\    \    /::::::\   \:::\    \        /::::::\    \    /::::::\   \:::\    \  
+ /\    \ /:::/\:::\    \  /:::/\:::\   \:::\____\      /:::/\:::\    \  /:::/\:::\   \:::\____\ 
+/::\    /:::/  \:::\____\/:::/  \:::\   \:::|    |    /:::/  \:::\____\/:::/  \:::\   \:::|    |
+\:::\  /:::/    \::/    /\::/    \:::\  /:::|____|   /:::/    \::/    /\::/   |::::\  /:::|____|
+ \:::\/:::/    / \/____/  \/_____/\:::\/:::/    /   /:::/    / \/____/  \/____|:::::\/:::/    / 
+  \::::::/    /                    \::::::/    /   /:::/    /                 |:::::::::/    /  
+   \::::/    /                      \::::/    /   /:::/    /                  |::|\::::/    /   
+    \::/    /                        \::/____/    \::/    /                   |::| \::/____/    
+     \/____/                          ~~           \/____/                    |::|  ~|          
+                                                                              |::|   |          
+                                                                              \::|   |          
+                                                                               \:|   |          
+                                                                                \|___|          
+                                                                                                
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,11 +83,26 @@
       style="text-decoration: none;" href="/logs.html">Logs</a> // <a class="f-badge" style="text-decoration: none;"
       href="/dmca.html">DMCA</a> // <a class="f-badge" style="text-decoration: none;" href="/sites.html">Mirror
       Sites</a> //
-    <a>All games are made from other publishers</a> // <span>Copyright © 2022-2023 imadejptr</span>
+    <a>All games are made from other publishers</a> // <span>imadejptr 2022-2024</span>
   </p>
 </body>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/jquery-3.6.4.min.js"></script>
-<script src="assets/js/gs.js"></script>
+<script>
+  // This is responsible for generating the system options when the user enters games.html
+  // this originally lied in the main.js file, but felt unnecessary since it was only used on this page.
+  fetch("/assets/json/systems.json")
+    .then((res) => res.json())
+    .then((data_systems) => {
+      sys = data_systems;
+      let systems = document.getElementById("systems");
+      for (let i = 0; i < sys.length; i++) {
+        // creates a div and puts in <systems>
+        let div = document.createElement("div");
+        div.classList = "partners partners-container";
+        div.innerHTML = '<a href="/' + sys[i].url + '"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' + sys[i].img + '-sys.png" style="width: 100%;"><div class="partners-overlay"><div class="partners-text"><b>' + sys[i].name + '</b>: ' + sys[i].desc + '</div></div><br></a><br></div>'
+        systems.appendChild(div);
+      }
+    })
+</script>
 
 </html>

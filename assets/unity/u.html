@@ -16,11 +16,6 @@
     document.body.appendChild(jsfile);
 
     window.onload = function () {
-
-        if (game == "slope-v13") {
-            document.getElementById("tag").style.display = "block";
-        }
-
         gameInstance = UnityLoader.instantiate("gameContainer", "json/" + game + ".json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function () { UnityProgress(gameInstance, "complete") } } });
     }
 </script>
