@@ -37,7 +37,7 @@ function search(data) {
                     if (valu.new == "true") {
                         $('#gs').append('<li><a href=/go.html?id=' +
                             valu.id +
-                            ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
+                            ' class="box"><img src="https://html.99v.org/img/' +
                             valu.id +
                             '.' +
                             valu.img +
@@ -50,7 +50,7 @@ function search(data) {
                     } else {
                         $('#gs').append("<li><a href=/go.html?id=" +
                             valu.id +
-                            ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
+                            ' class="box"><img src="https://html.99v.org/img/' +
                             valu.id +
                             '.' +
                             valu.img +
@@ -71,7 +71,7 @@ function search(data) {
             div.innerHTML =
                 "<a href=/go.html?id=" +
                 data[i].id +
-                ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
+                ' class="box"><img src="https://html.99v.org/img/' +
                 data[i].id +
                 '.' +
                 data[i].img +
@@ -86,7 +86,7 @@ function search(data) {
             div.innerHTML =
                 "<a href=/go.html?id=" +
                 data[i].id +
-                ' class="box"><img src="https://cdn.glitch.global/a65741ca-e4a3-4b9c-9f87-1568672f0160/' +
+                ' class="box"><img src="https://html.99v.org/img/' +
                 data[i].id +
                 '.' +
                 data[i].img +
