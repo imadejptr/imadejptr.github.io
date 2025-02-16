@@ -723,7 +723,7 @@
     {
         "name": "1v1.LOL",
         "g": "1v1",
-        "gameurl": "/assets/xml/1v1.html",
+        "gameurl": "https://imadejptr.github.io/strg3/1v1lol/1v1.html",
         "sys": "h",
         "id": "49",
         "url": "h",
@@ -1146,7 +1146,7 @@
     {
         "name": "Basket N Ball",
         "g": "YmFza2V0bmJhbGw=",
-        "gameurl": "https://imadejptr.github.io/strg/YmFza2V0bmJhbGw=/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/YmFza2V0bmJhbGw=/index.html",
         "sys": "h",
         "id": "77",
         "url": "h",
@@ -1162,7 +1162,7 @@
     {
         "name": "Cluster Rush",
         "g": "Y2x1c3Rlci1ydXNo",
-        "gameurl": "https://imadejptr.github.io/strg/Y2x1c3Rlci1ydXNo/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/Y2x1c3Rlci1ydXNo/index.html",
         "sys": "h",
         "id": "78",
         "url": "h",
@@ -1178,7 +1178,7 @@
     {
         "name": "Color Switch",
         "g": "Y29sb3Itc3dpdGNo",
-        "gameurl": "https://imadejptr.github.io/strg/color-switch/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/color-switch/index.html",
         "sys": "h",
         "id": "79",
         "url": "h",
@@ -1194,7 +1194,7 @@
     {
         "name": "Jelly Truck",
         "g": "amVsbHl0cnVjaw==",
-        "gameurl": "https://imadejptr.github.io/strg/amVsbHl0cnVjaw==/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/amVsbHl0cnVjaw==/index.html",
         "sys": "h",
         "id": "80",
         "url": "h",
@@ -1210,7 +1210,7 @@
     {
         "name": "Mari0",
         "g": "bWFyaTA=",
-        "gameurl": "https://imadejptr.github.io/strg/bWFyaTA=/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/bWFyaTA=/index.html",
         "sys": "h",
         "id": "81",
         "url": "h",
@@ -1226,7 +1226,7 @@
     {
         "name": "Basket Random",
         "g": "cmFuZG9tLWJhc2tldGJhbGw=",
-        "gameurl": "https://imadejptr.github.io/strg/cmFuZG9tLWJhc2tldGJhbGw=/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/cmFuZG9tLWJhc2tldGJhbGw=/index.html",
         "sys": "h",
         "id": "82",
         "url": "h",
@@ -1242,7 +1242,7 @@
     {
         "name": "Soccer Random",
         "g": "cmFuZG9tLXNvY2Nlcg==",
-        "gameurl": "https://imadejptr.github.io/strg/cmFuZG9tLXNvY2Nlcg==/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/cmFuZG9tLXNvY2Nlcg==/index.html",
         "sys": "h",
         "id": "83",
         "url": "h",
@@ -1258,7 +1258,7 @@
     {
         "name": "Retro Bowl (v1.4.9.3)",
         "g": "cmV0cm9ib3ds",
-        "gameurl": "https://imadejptr.github.io/strg/retro-bowl/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/retro-bowl/index.html",
         "sys": "h",
         "id": "84",
         "url": "h",
@@ -1274,7 +1274,7 @@
     {
         "name": "Rocket Soccer Derby",
         "g": "cm9ja2V0LXNvY2Nlcg==",
-        "gameurl": "https://imadejptr.github.io/strg/cm9ja2V0LXNvY2Nlcg==/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/cm9ja2V0LXNvY2Nlcg==/index.html",
         "sys": "h",
         "id": "85",
         "url": "h",
@@ -1290,7 +1290,7 @@
     {
         "name": "Smash Karts",
         "g": "c2thcnRz",
-        "gameurl": "https://imadejptr.github.io/strg/c2thcnRz/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/c2thcnRz/index.html",
         "sys": "h",
         "id": "86",
         "url": "h",
@@ -1321,7 +1321,7 @@
     {
         "name": "Super Fowlst",
         "g": "c3VwZXItZmxvd2xzdA==",
-        "gameurl": "https://imadejptr.github.io/strg/c3VwZXItZmxvd2xzdA==/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/c3VwZXItZmxvd2xzdA==/index.html",
         "sys": "h",
         "id": "88",
         "url": "h",
@@ -1337,7 +1337,7 @@
     {
         "name": "Superfighters",
         "g": "c3VwZXJmaWdodGVycw==",
-        "gameurl": "https://imadejptr.github.io/strg/c3VwZXJmaWdodGVycw==/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/c3VwZXJmaWdodGVycw==/index.html",
         "sys": "h",
         "id": "89",
         "url": "h",
@@ -1353,7 +1353,7 @@
     {
         "name": "Superhot",
         "g": "c3VwZXJob3Q=",
-        "gameurl": "https://imadejptr.github.io/strg/c3VwZXJob3Q=/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/c3VwZXJob3Q=/index.html",
         "sys": "h",
         "id": "90",
         "url": "h",
@@ -1369,7 +1369,7 @@
     {
         "name": "The Final Earth 2",
         "g": "dGhlLWZpbmFsLWVhcnRoLTI=",
-        "gameurl": "https://imadejptr.github.io/strg/dGhlLWZpbmFsLWVhcnRoLTI=/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/dGhlLWZpbmFsLWVhcnRoLTI=/index.html",
         "sys": "h",
         "id": "91",
         "url": "h",
@@ -3306,7 +3306,7 @@
     {
         "name": "Gunnight",
         "g": "gunnight",
-        "gameurl": "https://imadejptr.github.io/strg/gunnight/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/gunnight/index.html",
         "sys": "h",
         "id": "220",
         "url": "h",
@@ -3322,7 +3322,7 @@
     {
         "name": "Flappy Bird",
         "g": "flappy",
-        "gameurl": "https://imadejptr.github.io/strg/flappy/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/flappy/index.html",
         "sys": "h",
         "id": "221",
         "url": "h",
@@ -3338,7 +3338,7 @@
     {
         "name": "Doodle Jump",
         "g": "doodlejump",
-        "gameurl": "https://imadejptr.github.io/strg/doodlejump/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/doodlejump/index.html",
         "sys": "h",
         "id": "222",
         "url": "h",
@@ -3354,7 +3354,7 @@
     {
         "name": "Crossy Road: Space Edition",
         "g": "crossy",
-        "gameurl": "https://imadejptr.github.io/strg/crossy/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/crossy/index.html",
         "sys": "h",
         "id": "223",
         "url": "h",
@@ -3370,7 +3370,7 @@
     {
         "name": "Fall Boys",
         "g": "Fall-Boys-And-Girls-Running",
-        "gameurl": "https://imadejptr.github.io/strg/Fall-Boys-And-Girls-Running/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/Fall-Boys-And-Girls-Running/index.html",
         "sys": "h",
         "id": "224",
         "url": "h",
@@ -3821,7 +3821,7 @@
     {
         "name": "Ballistic",
         "g": "ballistic",
-        "gameurl": "https://imadejptr.github.io/strg/ballistic/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/ballistic/index.html",
         "sys": "h",
         "id": "254",
         "url": "h",
@@ -3837,7 +3837,7 @@
     {
         "name": "Big Tower Tiny Square",
         "g": "btts",
-        "gameurl": "https://imadejptr.github.io/strg/btts/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/btts/index.html",
         "sys": "h",
         "id": "255",
         "url": "h",
@@ -3853,7 +3853,7 @@
     {
         "name": "Freefall Tournament",
         "g": "freefall-tournament",
-        "gameurl": "https://imadejptr.github.io/strg/freefall-tournament/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/freefall-tournament/index.html",
         "sys": "h",
         "id": "256",
         "url": "h",
@@ -3869,7 +3869,7 @@
     {
         "name": "Going Balls",
         "g": "going-balls",
-        "gameurl": "https://imadejptr.github.io/strg/going-balls/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/going-balls/index.html",
         "sys": "h",
         "id": "257",
         "url": "h",
@@ -3885,7 +3885,7 @@
     {
         "name": "NSMB: Mario Vs Luigi",
         "g": "nsmb-mariovsluigi",
-        "gameurl": "https://imadejptr.github.io/strg/nsmb-mariovsluigi/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/nsmb-mariovsluigi/index.html",
         "sys": "h",
         "id": "258",
         "url": "h",
@@ -3901,7 +3901,7 @@
     {
         "name": "Spelunky",
         "g": "spelunky",
-        "gameurl": "https://imadejptr.github.io/strg/spelunky/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/spelunky/index.html",
         "sys": "h",
         "id": "259",
         "url": "h",
@@ -3917,7 +3917,7 @@
     {
         "name": "Brawlguys.io",
         "g": "brawlguys-io",
-        "gameurl": "https://imadejptr.github.io/strg/brawlguys-io/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/brawlguys-io/index.html",
         "sys": "h",
         "id": "260",
         "url": "h",
@@ -4115,7 +4115,7 @@
     {
         "name": "Cut The Rope",
         "g": "ctr",
-        "gameurl": "https://imadejptr.github.io/strg/ctr/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/ctr/index.html",
         "sys": "h",
         "id": "273",
         "url": "h",
@@ -4131,7 +4131,7 @@
     {
         "name": "Stickman Golf",
         "g": "stickman-golf",
-        "gameurl": "https://imadejptr.github.io/strg/stickman-golf/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/stickman-golf/index.html",
         "sys": "h",
         "id": "274",
         "url": "h",
@@ -4192,7 +4192,7 @@
     {
         "name": "Cookie Clicker",
         "g": "cookie",
-        "gameurl": "https://imadejptr.github.io/strg/cookie/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/cookie/index.html",
         "sys": "h",
         "id": "278",
         "url": "h",
@@ -4208,7 +4208,7 @@
     {
         "name": "Basketball Stars",
         "g": "bstars",
-        "gameurl": "https://imadejptr.github.io/strg/bstars/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/bstars/index.html",
         "sys": "h",
         "id": "279",
         "url": "h",
@@ -4224,7 +4224,7 @@
     {
         "name": "Bumpyball.io",
         "g": "bumpyball-io",
-        "gameurl": "https://imadejptr.github.io/strg/bumpyball-io/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/bumpyball-io/index.html",
         "sys": "h",
         "id": "280",
         "url": "h",
@@ -4240,7 +4240,7 @@
     {
         "name": "Five Nights at Freddys",
         "g": "fnaf",
-        "gameurl": "https://imadejptr.github.io/strg/fnaf/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/fnaf/index.html",
         "sys": "h",
         "id": "281",
         "url": "h",
@@ -4256,7 +4256,7 @@
     {
         "name": "Friday Night Funkin",
         "g": "funkin",
-        "gameurl": "https://imadejptr.github.io/strg/funkin/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/funkin/index.html",
         "sys": "h",
         "id": "282",
         "url": "h",
@@ -4332,7 +4332,7 @@
     {
         "name": "Subway Surfers",
         "g": "subwaysurfers",
-        "gameurl": "https://imadejptr.github.io/strg/subwaysurfers/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/subwaysurfers/index.html",
         "sys": "h",
         "id": "287",
         "url": "h",
@@ -4348,7 +4348,7 @@
     {
         "name": "Deepest Sword",
         "g": "deepest-sword",
-        "gameurl": "https://imadejptr.github.io/strg/deepest-sword/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/deepest-sword/index.html",
         "sys": "h",
         "id": "288",
         "url": "h",
@@ -4364,7 +4364,7 @@
     {
         "name": "Falling Fox",
         "g": "falling-fox",
-        "gameurl": "https://imadejptr.github.io/strg/falling-fox/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/falling-fox/index.html",
         "sys": "h",
         "id": "289",
         "url": "h",
@@ -4380,7 +4380,7 @@
     {
         "name": "Minecraft",
         "g": "mc",
-        "gameurl": "https://imadejptr.github.io/strg/eaglercraft/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/eaglercraft/index.html",
         "sys": "h",
         "id": "290",
         "url": "h",
@@ -4426,7 +4426,7 @@
     {
         "name": "Moto X3M",
         "g": "motox3m",
-        "gameurl": "https://imadejptr.github.io/strg/motox3m/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/motox3m/index.html",
         "sys": "h",
         "id": "293",
         "url": "h",
@@ -4442,7 +4442,7 @@
     {
         "name": "NG Stars",
         "g": "ng-stars",
-        "gameurl": "https://imadejptr.github.io/strg/ng-stars/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/ng-stars/index.html",
         "sys": "h",
         "id": "294",
         "url": "h",
@@ -4458,7 +4458,7 @@
     {
         "name": "Nitroclash.io",
         "g": "nitroclash-io",
-        "gameurl": "https://imadejptr.github.io/strg/nitroclash-io/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/nitroclash-io/index.html",
         "sys": "h",
         "id": "295",
         "url": "h",
@@ -4474,7 +4474,7 @@
     {
         "name": "Onion Boy",
         "g": "onion-boy",
-        "gameurl": "https://imadejptr.github.io/strg/onion-boy/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/onion-boy/index.html",
         "sys": "h",
         "id": "296",
         "url": "h",
@@ -4506,7 +4506,7 @@
     {
         "name": "Super Santa Kicker",
         "g": "super-santa-kicker",
-        "gameurl": "https://imadejptr.github.io/strg/super-santa-kicker/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/super-santa-kicker/index.html",
         "sys": "h",
         "id": "298",
         "url": "h",
@@ -4522,7 +4522,7 @@
     {
         "name": "Temple Run 2",
         "g": "templerun2",
-        "gameurl": "https://imadejptr.github.io/strg/templerun2/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/templerun2/index.html",
         "sys": "h",
         "id": "299",
         "url": "h",
@@ -4629,7 +4629,7 @@
     {
         "name": "Krunker.io",
         "g": "krunker-io",
-        "gameurl": "https://imadejptr.github.io/strg/krunker-io/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/krunker-io/index.html",
         "sys": "h",
         "id": "306",
         "url": "h",
@@ -4705,7 +4705,7 @@
     {
         "name": "Diggy",
         "g": "diggy",
-        "gameurl": "https://imadejptr.github.io/strg/Diggy/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/Diggy/index.html",
         "sys": "h",
         "id": "311",
         "url": "h",
@@ -4721,7 +4721,7 @@
     {
         "name": "Five Nights at Freddys 2",
         "g": "fnaf2",
-        "gameurl": "https://imadejptr.github.io/strg/fnaf2/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/fnaf2/index.html",
         "sys": "h",
         "id": "312",
         "url": "h",
@@ -4737,7 +4737,7 @@
     {
         "name": "Five Nights at Freddys 3",
         "g": "fnaf3",
-        "gameurl": "https://imadejptr.github.io/strg/fnaf3/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/fnaf3/index.html",
         "sys": "h",
         "id": "313",
         "url": "h",
@@ -5009,7 +5009,7 @@
     {
         "name": "Super Smash Flash 2 v0.9",
         "g": "ssf2",
-        "gameurl": "https://imadejptr.github.io/strg/ssf2/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/ssf2/index.html",
         "sys": "h",
         "id": "331",
         "url": "h",
@@ -7275,7 +7275,7 @@
     {
         "name": "Stack",
         "g": "stack",
-        "gameurl": "https://imadejptr.github.io/strg/stack",
+        "gameurl": "https://imadejptr.github.io/strg3/stack",
         "sys": "h",
         "id": "482",
         "url": "h",
@@ -7291,7 +7291,7 @@
     {
         "name": "OvO",
         "g": "ovo",
-        "gameurl": "https://imadejptr.github.io/strg/ovo",
+        "gameurl": "https://imadejptr.github.io/strg3/ovo",
         "sys": "h",
         "id": "483",
         "url": "h",
@@ -7307,7 +7307,7 @@
     {
         "name": "Fireboy & Watergirl in The Forest Temple",
         "g": "fwitft",
-        "gameurl": "https://imadejptr.github.io/strg/fwitft",
+        "gameurl": "https://imadejptr.github.io/strg3/fwitft",
         "sys": "h",
         "id": "484",
         "url": "h",
@@ -7323,7 +7323,7 @@
     {
         "name": "100ng",
         "g": "100ng",
-        "gameurl": "https://imadejptr.github.io/strg/100ng/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/100ng/index.html",
         "sys": "h",
         "id": "485",
         "url": "h",
@@ -7339,7 +7339,7 @@
     {
         "name": "Adventure Drivers",
         "g": "adventure-drivers",
-        "gameurl": "https://imadejptr.github.io/strg/adventure-drivers/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/adventure-drivers/index.html",
         "sys": "h",
         "id": "486",
         "url": "h",
@@ -7355,7 +7355,7 @@
     {
         "name": "Bad Ice Cream",
         "g": "bad-ice-cream",
-        "gameurl": "https://imadejptr.github.io/strg/bad-ice-cream/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/bad-ice-cream/index.html",
         "sys": "h",
         "id": "487",
         "url": "h",
@@ -7371,7 +7371,7 @@
     {
         "name": "Bad Ice Cream 2",
         "g": "bad-ice-cream-2",
-        "gameurl": "https://imadejptr.github.io/strg/bad-ice-cream-2/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/bad-ice-cream-2/index.html",
         "sys": "h",
         "id": "488",
         "url": "h",
@@ -7387,7 +7387,7 @@
     {
         "name": "Bad Ice Cream 3",
         "g": "bad-ice-cream-3",
-        "gameurl": "https://imadejptr.github.io/strg/bad-ice-cream-3/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/bad-ice-cream-3/index.html",
         "sys": "h",
         "id": "489",
         "url": "h",
@@ -7403,7 +7403,7 @@
     {
         "name": "Basketbros.io",
         "g": "basketbros-io",
-        "gameurl": "https://imadejptr.github.io/strg/basketbros-io/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/basketbros-io/index.html",
         "sys": "h",
         "id": "490",
         "url": "h",
@@ -7419,7 +7419,7 @@
     {
         "name": "Boxing Random",
         "g": "boxing-random",
-        "gameurl": "https://imadejptr.github.io/strg/boxing-random/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/boxing-random/index.html",
         "sys": "h",
         "id": "491",
         "url": "h",
@@ -7435,7 +7435,7 @@
     {
         "name": "Draw The Hill",
         "g": "draw-the-hill",
-        "gameurl": "https://imadejptr.github.io/strg/draw-the-hill/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/draw-the-hill/index.html",
         "sys": "h",
         "id": "492",
         "url": "h",
@@ -7451,7 +7451,7 @@
     {
         "name": "Gravity Soccer",
         "g": "gravity-soccer",
-        "gameurl": "https://imadejptr.github.io/strg/gravity-soccer/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/gravity-soccer/index.html",
         "sys": "h",
         "id": "493",
         "url": "h",
@@ -7467,7 +7467,7 @@
     {
         "name": "Jetpack Joyride",
         "g": "jetpack-joyride",
-        "gameurl": "https://imadejptr.github.io/strg/jetpack-joyride/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/jetpack-joyride/index.html",
         "sys": "h",
         "id": "494",
         "url": "h",
@@ -7483,7 +7483,7 @@
     {
         "name": "JustFall.LOL",
         "g": "just-fall",
-        "gameurl": "https://imadejptr.github.io/strg/just-fall/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/just-fall/index.html",
         "sys": "h",
         "id": "495",
         "url": "h",
@@ -7499,7 +7499,7 @@
     {
         "name": "Kitchen Gun Game",
         "g": "kitchen-gun-game",
-        "gameurl": "https://imadejptr.github.io/strg/kitchen-gun-game/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/kitchen-gun-game/index.html",
         "sys": "h",
         "id": "496",
         "url": "h",
@@ -7515,7 +7515,7 @@
     {
         "name": "Rabbit Samurai",
         "g": "rabbit-samurai",
-        "gameurl": "https://imadejptr.github.io/strg/rabbit-samurai/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/rabbit-samurai/index.html",
         "sys": "h",
         "id": "497",
         "url": "h",
@@ -7531,7 +7531,7 @@
     {
         "name": "Rabbit Samurai 2",
         "g": "rabbit-samurai2",
-        "gameurl": "https://imadejptr.github.io/strg/rabbit-samurai2/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/rabbit-samurai2/index.html",
         "sys": "h",
         "id": "498",
         "url": "h",
@@ -7547,7 +7547,7 @@
     {
         "name": "Microsoft Solitaire",
         "g": "solitaire",
-        "gameurl": "https://imadejptr.github.io/strg/solitaire/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/solitaire/index.html",
         "sys": "h",
         "id": "499",
         "url": "h",
@@ -7563,7 +7563,7 @@
     {
         "name": "Super Bernie World",
         "g": "super-bernie-world",
-        "gameurl": "https://imadejptr.github.io/strg/super-bernie-world/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/super-bernie-world/index.html",
         "sys": "h",
         "id": "500",
         "url": "h",
@@ -7579,7 +7579,7 @@
     {
         "name": "Tank Trouble 2",
         "g": "tank-trouble-2",
-        "gameurl": "https://imadejptr.github.io/strg/tank-trouble-2/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/tank-trouble-2/index.html",
         "sys": "h",
         "id": "501",
         "url": "h",
@@ -7595,7 +7595,7 @@
     {
         "name": "There Is No Game",
         "g": "there-is-no-game",
-        "gameurl": "https://imadejptr.github.io/strg/there-is-no-game/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/there-is-no-game/index.html",
         "sys": "h",
         "id": "502",
         "url": "h",
@@ -7611,7 +7611,7 @@
     {
         "name": "TwitchTetris",
         "g": "twitch-tetris",
-        "gameurl": "https://imadejptr.github.io/strg/twitch-tetris/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/twitch-tetris/index.html",
         "sys": "h",
         "id": "503",
         "url": "h",
@@ -7627,7 +7627,7 @@
     {
         "name": "Vex 3",
         "g": "vex3",
-        "gameurl": "https://imadejptr.github.io/strg/vex3/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/vex3/index.html",
         "sys": "h",
         "id": "504",
         "url": "h",
@@ -7643,7 +7643,7 @@
     {
         "name": "Vex 4",
         "g": "vex4",
-        "gameurl": "https://imadejptr.github.io/strg/vex4/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/vex4/index.html",
         "sys": "h",
         "id": "505",
         "url": "h",
@@ -7659,7 +7659,7 @@
     {
         "name": "Vex 5",
         "g": "vex5",
-        "gameurl": "https://imadejptr.github.io/strg/vex5/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/vex5/index.html",
         "sys": "h",
         "id": "506",
         "url": "h",
@@ -7675,7 +7675,7 @@
     {
         "name": "Vex 6",
         "g": "vex6",
-        "gameurl": "https://imadejptr.github.io/strg/vex6/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/vex6/index.html",
         "sys": "h",
         "id": "507",
         "url": "h",
@@ -7691,7 +7691,7 @@
     {
         "name": "Vex 7",
         "g": "vex7",
-        "gameurl": "https://imadejptr.github.io/strg/vex7/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/vex7/index.html",
         "sys": "h",
         "id": "508",
         "url": "h",
@@ -8367,7 +8367,7 @@
     {
         "name": "Bit-Life",
         "g": "bitlife",
-        "gameurl": "https://imadejptr.github.io/strg/bitlife/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/bitlife/index.html",
         "sys": "h",
         "id": "553",
         "url": "h",
@@ -8728,7 +8728,7 @@
     {
         "name": "Dadish",
         "g": "dadish",
-        "gameurl": "https://imadejptr.github.io/strg/dadish/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/dadish/index.html",
         "sys": "h",
         "id": "577",
         "url": "h",
@@ -8744,7 +8744,7 @@
     {
         "name": "Five Nights at Freddys 4",
         "g": "fnaf4",
-        "gameurl": "https://imadejptr.github.io/strg/fnaf4/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/fnaf4/index.html",
         "sys": "h",
         "id": "578",
         "url": "h",
@@ -8807,7 +8807,7 @@
     {
         "name": "N-Gon",
         "g": "ngon",
-        "gameurl": "https://imadejptr.github.io/strg/n-gon/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/n-gon/index.html",
         "sys": "h",
         "id": "582",
         "url": "h",
@@ -9111,7 +9111,7 @@
     {
         "name": "Volley Random",
         "g": "vrandom",
-        "gameurl": "https://imadejptr.github.io/strg/vrandom/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/vrandom/index.html",
         "sys": "h",
         "id": "602",
         "url": "h",
@@ -9142,7 +9142,7 @@
     {
         "name": "Fighter Aircraft Pilot",
         "g": "fap",
-        "gameurl": "https://imadejptr.github.io/strg/fap/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/fap/index.html",
         "sys": "h",
         "id": "604",
         "url": "h",
@@ -9158,7 +9158,7 @@
     {
         "name": "Monkey Mart: Online",
         "g": "mkmart",
-        "gameurl": "https://imadejptr.github.io/strg/mkmart/index.html",
+        "gameurl": "https://imadejptr.github.io/strg3/mkmart/index.html",
         "sys": "h",
         "id": "605",
         "url": "h",
@@ -9939,7 +9939,7 @@
         "pub": "draw.uy",
         "desc": "Draw with friends is an online collaborative drawing canvas. A multi-player game for making friends while drawing together",
         "source": "https://draw.uy/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Street Fighter Alpha 2",
@@ -9954,7 +9954,7 @@
         "pub": "Capcom",
         "desc": "Another Street Fighter sequel (this time for Street Fighter Alpha) adds even more to the classic fighting series. New characters in this version include Gen (a wise kung-fu master), Rolento (who you may remember from another Capcom classic, Final Fight) and Sakura, a young school girl who follows her hero Ryu so close, she has the same type of moves. Dhalsim and Zangief also return to the fight with some news moves. The other major difference is the loss of chain-combos and the gain of a custom combo system. Once you reach the required level (which is 1 at the least) you can execute a custom combo by combining any of the buttons (which there are 6 in total) or any of the special attacks (fireballs, etc.)",
         "source": "https://www.mobygames.com/game/3706/street-fighter-alpha-2/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Galaxian",
@@ -9969,7 +9969,7 @@
         "pub": "Namco",
         "desc": "Galaxian is a shoot 'em up in which the player is at the bottom of the screen, with an arrangement of aliens at the top. The player moves left and right to aim at an alien, then shoots a bullet up the screen, and the alien it hits is killed. The aliens are classed as Drones, Emissaries, Hornets and Commanders, with those higher up the screen scoring more points when destroyed. At set intervals an enemy will move down the screen towards you, escorting a bomber, which is a moment of high danger. Clear a wave and another is generated.",
         "source": "https://www.mobygames.com/game/137/galaxian/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Star Fox 2",
@@ -9984,7 +9984,7 @@
         "pub": "Nintendo",
         "desc": "Star Fox 2 is the official sequel to Star Fox, previously only available as a unofficial home-brew/bootleg version and later officially as a part of the Super Nintendo Entertainment System: Super NES Classic Edition as a unlockable game. Before these releases it was officially planned to be released in 1995, but was cancelled by Nintendo themselves. In December 2019, the game was officially added as part of the Nintendo Switch online SNES library.",
         "source": "https://www.mobygames.com/game/141069/star-fox-2/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Totoro - Mei is Missing [HACK]",
@@ -9999,7 +9999,7 @@
         "pub": "Cakewarden",
         "desc": "Mei has gone missing again and Totoro has to go on an adventure to find her. Totoro will encounter creatures during his journey that will try and stop him. Totoro will go through 14 new levels during his adventure facing enemies inspired from My Neighbour Totoro and Spirited Away. This hack alters the graphics, levels, and music of Super Mario Bros. to give a new take on an old classic.",
         "source": "https://www.romhacking.net/hacks/8370/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Super Baseball 2020",
@@ -10014,7 +10014,7 @@
         "pub": "SNK",
         "desc": "In the year 2020, baseball finally evolved. There is no longer conventional professional baseball in 2020. Baseball designed by the Super Baseball Association has been very popular and is the best sport. However, the truth is that the association has used a colossal sum of money to promote Super Baseball as show business. They have manipulated each player's ability using the control computer to secretly decide victory or defeat in every game. The players who knew this removed the connecting parts of the computer to play their own game of baseball. Finally, a fair game is going to be played at Cyber Egg Stadium.",
         "source": "https://www.mobygames.com/game/17086/super-baseball-2020/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Tecmo Super NBA Basketball",
@@ -10029,7 +10029,7 @@
         "pub": "Tecmo",
         "desc": "Tecmo Super NBA features real teams (all 27 contemporary teams) and a roster of real players (over 320). One or two players can compete in regular, reduced, or short seasons, or play an exhibition game. Though primarily horizontal scrolling, digitized speech and cinemas, along with a free throw point of view, add drama to the proceedings. Besides the expected elements of basketball (substitutions, penalties, steals and blocks, time-outs, overtime), Super NBA gives you the chance to call offensive plays and to program win/loss records. Has a battery to back-up season play.",
         "source": "https://www.mobygames.com/game/15088/tecmo-super-nba-basketball/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Tetris - Rosy Retrospection [HACK]",
@@ -10044,7 +10044,7 @@
         "pub": "Ospin",
         "desc": "aims to combine the joyful nostalgia of playing classic GameBoy Tetris with the established comfort of modern gameplay mechanics.",
         "source": "https://www.romhacking.net/hacks/5813/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Conker's High Rule Tail [HACK]",
@@ -10059,7 +10059,7 @@
         "pub": "SePH",
         "desc": "Initially built as a spiritual sequel to Parallel Worlds, this project has evolved so much overtime that eventually it became an unofficial sequel to an M Rated game that was released late in the Nintendo 64 lifespan, none other than Conker’s Bad Fur Day!",
         "source": "https://www.romhacking.net/hacks/3346/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "SkapNightly",
@@ -10075,7 +10075,7 @@
         "pub": "premiering",
         "desc": "SkapNightly is a fork of SkapClient made for looks, and customizability. SkapClient is an unofficial client for the game skap.io. This project will likely only receive bug fixes from since the codebase is difficult to work with and there are new things coming",
         "source": "https://github.com/premiering/SkapNightly/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Nova Billiard",
@@ -10090,7 +10090,7 @@
         "pub": "FreezeNova",
         "desc": "Nova Billiard is a classic billiard game that never gets old. And is here waiting for you to tap the start button and enjoy maybe a whole day playing a marvelous game with a long history behind it. Call your friends now and take the game as a gift.",
         "source": "https://unblocked-games.s3.amazonaws.com/nova-billiard.html",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Tecmo Super Bowl - NCAA 2K24 Edition [HACK]",
@@ -10105,7 +10105,7 @@
         "pub": "SBlueman",
         "desc": "The classic NES sports title, updated with 32 NCAA Division One teams from the 2023-24 season!",
         "source": "https://www.romhacking.net/hacks/8338/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Raccoon Rascal",
@@ -10120,7 +10120,7 @@
         "pub": "J-Force",
         "desc": "Araiguma Rascal is a puzzle game based on the anime series of the same name, featuring the raccoon Rascal.",
         "source": "https://www.mobygames.com/game/79953/araiguma-rascal/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "VectorMan",
@@ -10135,7 +10135,7 @@
         "pub": "SEGA",
         "desc": "The future of the human race looks hopeless when maintenance drones accidentally replace the orbot leader's head with a salvaged atomic bomb. All the orbots on Earth are immediately ordered, via television receivers, to stop cleaning up the planet and to start manufacturing weapons for an impending ambush of the returning humans. Only one orbot, a sludge barge pilot who was out of communications range, is unaffected by the evil take-over. You are that pilot: VectorMan! The only hope of the entire human race is for you to destroy the villainous WarHead: you must seek him out by following a trail of television receivers around the Earth, and then confront him in a battle that will decide the fate of humanity, and of the planet Earth itself!",
         "source": "https://www.mobygames.com/game/7143/vectorman/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "MK64: Hooting Time! [HACK]",
@@ -10150,7 +10150,7 @@
         "pub": "HootHoot",
         "desc": "Have a Hooting Time!",
         "source": "https://www.romhacking.net/hacks/7105/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Tecmo Super Bowl",
@@ -10165,7 +10165,7 @@
         "pub": "Tecmo",
         "desc": "Tecmo returns to the gridiron with this new version of Tecmo Super Bowl for 16-bit console systems. Play with real National Football League players and teams in this 2D, side-scrolling arcade game. All of the features from the 8-bit game remain intact, with brand new ones added for even more electronic football fun! Additions include updated player rosters, options for weather effects (rain, snow), multiple season play (three regular season schedules available in all), adjustable game time length, and an offensive playbook that can be edited even during a game.",
         "source": "https://www.mobygames.com/game/16868/tecmo-super-bowl/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Tecmo Super Bowl III: Final Edition",
@@ -10180,7 +10180,7 @@
         "pub": "Tecmo",
         "desc": "A late entry in what was once the premiere football simulation, TSB III has updated rosters and teams for the 1994-1995 season and is licensed by both the NFL and the Players group. Features real NFLP players and photos, the real NFL schedule, and weekly standings. You can change defensive and offensive formations, create your own Pro Bowl, fake punts and field goals, go for the two point conversion, and call audibles. Updates to the game itself include new cinema screens, superstar mode, free agency system, improved graphics, larger field simulation, passing modes, and improved speech and music. Horizontal scrolling. Also features battery back-up.",
         "source": "mobygames.com/game/15087/tecmo-super-bowl-iii-final-edition/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Idle Breakout",
@@ -10196,7 +10196,7 @@
         "pub": "Kodiqi",
         "desc": "An idle version of classic Breakout. Use multiple balls of different strength, speed and special abilities to smash a million bricks! Upgrade balls to reach higher levels and unlock power-ups to boost your progress!",
         "source": "https://kodiqi.itch.io/idle-breakout/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Drift Boss",
@@ -10212,7 +10212,7 @@
         "pub": "DesarrApps",
         "desc": "Drift Boss is a casual game in which you'll have the objective of driving through an endless road full of sharp curves. Although, yes, anticipating changes in the direction of the path to react in time and avoid falling into the void.",
         "source": "https://www.amazon.com/DesarrApps-Drift-Boss-Game/dp/B0BCXG2LS4",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Die In The Dungeon",
@@ -10228,7 +10228,7 @@
         "pub": "Alarts",
         "desc": "Die in the Dungeon is a deck-building, turn-based roguelite where you dont use cards, but dice! Try to find the best combination to conquer the 2X-floor dungeon, but be careful, a frog like you can only get so far before encountering a prey too big to swallow...",
         "source": "https://alarts.itch.io/die-in-the-dungeon",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Super Liquid Soccer",
@@ -10244,7 +10244,7 @@
         "pub": "punyrobot",
         "desc": "7-a-side frantic soccer fun. Super Liquid Soccer is a football game in the spirit of classic games like Sensible Soccer, Kick Off and Goal!",
         "source": "https://punyrobot.com/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Ages Of Conflict",
@@ -10260,7 +10260,7 @@
         "pub": "JokuPelle",
         "desc": "Ages of Conflict is a versatile Map Simulation Spawn and observe custom or random AI nations battle it out across an infinite number of worlds. Command nations to nudge the world events into your liking.",
         "source": "https://jokupelle.itch.io/ages-of-conflict",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Retro Bowl (v1.5.9.0)",
@@ -10276,7 +10276,7 @@
         "pub": "New Star Games",
         "desc": "Retro Bowl is the perfect game for the armchair quarterback to finally prove a point. Presented in a glorious retro style, the game has simple roster management, including press duties and the handling of fragile egos, while on the field you get to call the shots.",
         "source": "https://www.newstargames.com/servlet/Content/en/text/releases/Releases/item/424/Releases-Retro-Bowl",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Rooftop Snipers",
@@ -10291,7 +10291,7 @@
         "pub": "New Eich Games",
         "desc": "Rooftop Snipers is a chaotic two button local multiplayer game. Challenge your friends side by side or play the computer. Shoot your opponent off the map to win.",
         "source": "https://www.neweichgames.com/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Pizza Tower",
@@ -10307,7 +10307,7 @@
         "pub": "Tour De Pizza",
         "desc": "Pizza Tower is a fast paced 2D platformer inspired by the Wario Land series, with an emphasis on movement, exploration and score attack. Featuring highly stylized pixel art inspired by the cartoons from the '90s, and a highly energetic soundtrack.",
         "source": "https://www.newstargames.com/servlet/Content/en/text/releases/Releases/item/424/Releases-Retro-Bowl",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Drive Mad",
@@ -10323,7 +10323,7 @@
         "pub": "Martin Magni",
         "desc": "Drive Mad is a car game where you drive on a track filled with obstacles. Your aim is to reach the finish line in one piece. You have to balance your speed so your car doesn't flip over. This is harder than it sounds, as there are many thrilling and creative stunts and obstacles for you to enjoy. Do you have what it takes to finish every level in Drive Mad?",
         "source": "https://poki.com/en/g/drive-mad",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Quake",
@@ -10339,7 +10339,7 @@
         "pub": "id Software",
         "desc": "An enemy with the codename ''Quake'', which is believed to come from another dimension, is using teleporter gates to invade Earth. The player takes the role of a nameless soldier who arrives at his base only to find out Quake has overrun it and killed everyone. Somewhere in the base, there must be a teleporter to Quake's realm. The mission is clear: take the fight to the enemy, overcome countless hordes of monsters, and exact revenge.",
         "source": "https://www.mobygames.com/game/374/quake/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Five Nights at Freddy's: Sister Location",
@@ -10355,7 +10355,7 @@
         "pub": "Scott Cawthon",
         "desc": "Welcome to Circus Baby's Pizza World, where family fun and interactivity go beyond anything you've seen at those *other* pizza places! Now hiring: Late night technician. Must enjoy cramped spaces and be comfortable around active machinery. Not responsible for death or dismemberment.",
         "source": "https://store.steampowered.com/app/506610/Five_Nights_at_Freddys_Sister_Location/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Basketball Legends 2020",
@@ -10371,7 +10371,7 @@
         "pub": "MadPuffers",
         "desc": "Basketball Legends 2020 is the ultimate basketball game where you can play as LeBron James, James Harden, Kawhi Leonard, Giannis Antetokounmpo, Luka Doncic, and much more, created by MadPuffers. Experience the sequel to the hit Basketball Stars game on Poki in your browser or mobile device. Looking for the best two-player basketball game around? Basketball Legends 2020, in HTML5, is the perfect game if you are looking to play some ball alone or with your friends. Play just a quick match or a whole tournament and show that you have what it takes to compete in the NBA.",
         "source": "https://poki.com/en/g/basketball-legends-2020",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Party Project",
@@ -10387,7 +10387,7 @@
         "pub": "Char",
         "desc": "A work in progress party game.",
         "source": "https://char64.itch.io/partyproject",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Retro Bowl College",
@@ -10403,7 +10403,7 @@
         "pub": "New Star Games",
         "desc": "The official spin-off of the smash hit RETRO BOWL takes you back to the old-school. If you thought managing a Pro Team was a challenge - you've seen nothing yet!",
         "source": "https://www.newstargames.com/servlet/Content/en/text/releases/Releases/item/484/Releases-Retro-Bowl-College",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "FIFA 07",
@@ -10418,7 +10418,7 @@
         "pub": "EA Sports",
         "desc": "THIS IS THE SEASON FEATURES * Take the reins of your favorite club in Career Mode featuring an all-new career ticker. * Take your game to the next level with an enhanced passing and defensive gameplay system. * Featuring more than 500 clubs and 12.000 players, plus 19 different tournaments from around the globe. * Put your pride on the line against friends and rivals with head-to-head Multiplayer play.",
         "source": "https://www.mobygames.com/game/198817/fifa-soccer-07/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "VectorMan 2",
@@ -10433,7 +10433,7 @@
         "pub": "SEGA",
         "desc": "This is a sequel to Vectorman. This time, the super-powerful little robot was attacked while coming back to earth in his spaceship. He falls down on the earth only to discover dark locations full of hostile creatures and to participate in a platformer full of fast and furious action. Fight your enemies, collect photons, jump over obstacles, find weapons, morph into other creatures, and climb walls as the green 'orbot' Vectorman.",
         "source": "https://www.mobygames.com/game/7817/vectorman-2/",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Burrito Bison: Launcha Libre",
@@ -10449,7 +10449,7 @@
         "pub": "JuicyBeast",
         "desc": "Burrito Bison is back! And now he brings friends with him to prevent the gummy nation from taking over the world!",
         "source": "https://www.kongregate.com/games/juicybeast/burrito-bison-launcha-libre",
-        "new": "true"
+        "new": "false"
     },
     {
         "name": "Pokemon Kaizo Emerald [HACK]",
@@ -10464,6 +10464,54 @@
         "pub": "SinisterHoodedFigure",
         "desc": "This is a significantly more challenging hack of Pokémon Emerald, where the player can obtain all 386 Pokémon in the Third Generation.",
         "source": "https://www.romhacking.net/hacks/4291/",
+        "new": "false"
+    },
+    {
+        "name": "2 Minute Football",
+        "g": "2-minute-football",
+        "gameurl": "https://imadejptr.github.io/strg3/2-minute-football/index.html",
+        "sys": "h",
+        "id": "691",
+        "url": "h",
+        "badge": "HTML5",
+        "img": "jpg",
+        "mame": "false",
+        "year": "2021",
+        "pub": "igamebank",
+        "desc": "QB the Epic 2 Minute Drill! You're the star QB and it's clutch time -- score as many touchdowns as you can in two minutes, powering up your score with consecutive completions and yards after catch. Beat the clock, beat your friends, be the best QB in the game!",
+        "source": "https://www.igamebank.com/",
+        "new": "true"
+    },
+    {
+        "name": "Unicycle Hero",
+        "g": "unicyclehero",
+        "gameurl": "https://imadejptr.github.io/strg3/unicyclehero/index.html",
+        "sys": "h",
+        "id": "692",
+        "url": "h",
+        "badge": "HTML5",
+        "img": "jpg",
+        "mame": "false",
+        "year": "2019",
+        "pub": "Unept",
+        "desc": "Finally, your dream of balancing on a unicycle and hurling heavy objects HAS COME TRUE.",
+        "source": "https://apps.apple.com/us/app/unicycle-hero/id1241960943",
+        "new": "true"
+    },
+    {
+        "name": "Masked Forces",
+        "g": "maskedforces",
+        "gameurl": "https://imadejptr.github.io/strg3/masked-forces/index.html",
+        "sys": "h",
+        "id": "693",
+        "url": "h",
+        "badge": "HTML5",
+        "img": "jpg",
+        "mame": "false",
+        "year": "2016",
+        "pub": "Freeze Nova",
+        "desc": "Masked Forces is the perfect choice for gamers seeking a first-person shooter with a strategic twist. All available skills should be used to eliminate enemies and win the battle. The game has stunning visuals, and players can arm themselves with weapons from the store.",
+        "source": "https://unblocked-games.s3.amazonaws.com/masked-forces.html",
         "new": "true"
     }
 ]

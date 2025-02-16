@@ -106,5 +106,47 @@
         "background": "rgb(107, 126, 219)",
         "color": "rgb(255, 255, 255)",
         "maker": "BlakeVYUHefwv"
+    },
+    {
+        "theme": "Eye Cancer",
+        "background": "rgb(255, 136, 0)",
+        "color": "rgb(0, 255, 17)",
+        "maker": "Daegster99"
+    },
+    {
+        "theme": "eye sadness",
+        "background": "rgb(75, 160, 89)",
+        "color": "rgb(43, 255, 0)",
+        "maker": "Tom Hardy"
+    },
+    {
+        "theme": "Messi vs Madrid",
+        "background": "url('https://i.ytimg.com/vi/67DlnWtlllQ/maxresdefault.jpg')",
+        "color": "rgb(255, 255, 255)",
+        "maker": "I don't have one"
+    },
+    {
+        "theme": "Pink and Blue cotten candy",
+        "background": "rgb(0, 30, 255)",
+        "color": "rgb(0, 0, 0)",
+        "maker": "AndreOMG"
+    },
+    {
+        "theme": "Red Batman",
+        "background": "url('https://i.pinimg.com/originals/41/b0/c4/41b0c4c2ae2bd549b08b10f5f3d1a9c1.jpg')",
+        "color": "rgb(255, 255, 255)",
+        "maker": "29caixetaj"
+    },
+    {
+        "theme": "Shinji (Neon Genesis Evangalion)",
+        "background": "url('https://mrwallpaper.com/images/hd/shinji-ikari-evangelion-2znqnwyhu9unom21.jpg')",
+        "color": "rgb(255, 255, 255)",
+        "maker": "JoseJoeyPeke"
+    },
+    {
+        "theme": "myheroacidamia",
+        "background": "url('https://images3.alphacoders.com/859/859804.png')",
+        "color": "rgb(255, 255, 255)",
+        "maker": "animefan"
     }
 ]

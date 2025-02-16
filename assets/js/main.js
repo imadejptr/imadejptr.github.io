@@ -81,7 +81,7 @@ function luma() {
  * This is done so that there isn't a huge amount of errors because of it not being used in other pages.
  */
 if (document.body.classList.contains("cats")) {
-    const bobbo = fetch("/assets/json/twothree.json")
+    const bobbo = fetch("/assets/json/hot.json")
         .then(function (response) {
             return response.json();
         })
@@ -97,7 +97,7 @@ if (document.body.classList.contains("cats")) {
      * @param {*} bobbo - represents the data being passed through
      */
     function hot(bobbo) {
-        let hotG = document.getElementById("hot");
+        let hotG = document.getElementById("pg");
         // originally it would be 15, but for this special update it will 30.
         for (let i = 0; i < 100; i++) {
             let div = document.createElement("li");

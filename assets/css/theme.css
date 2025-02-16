@@ -370,22 +370,22 @@ body[t="Shinji Ikari"] {
     --box: 39, 43, 160;
 }
 
-body[t="Blue Sky"] { 
-    --background: rgb(0,21,31); 
-    --theme: rgb(4,145,215); 
-    --theme-secondary: rgb(18,113,202); 
-    --text: rgb(255,255,255); 
-    --text-secondary: rgb(255,255,255); 
-    --box: 18,133,202; 
+body[t="Blue Sky"] {
+    --background: rgb(0, 21, 31);
+    --theme: rgb(4, 145, 215);
+    --theme-secondary: rgb(18, 113, 202);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 18, 133, 202;
 }
 
-body[t="Cherry Blossom"] { 
-    --background: rgb(242,145,150); 
-    --theme: rgb(209,102,102); 
-    --theme-secondary: rgb(122,33,0); 
-    --text: rgb(255,255,255); 
-    --text-secondary: rgb(0,0,0); 
-    --box: 255,87,129; 
+body[t="Cherry Blossom"] {
+    --background: rgb(242, 145, 150);
+    --theme: rgb(209, 102, 102);
+    --theme-secondary: rgb(122, 33, 0);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(0, 0, 0);
+    --box: 255, 87, 129;
 }
 
 body[t="Bakugo"] {
@@ -397,13 +397,13 @@ body[t="Bakugo"] {
     --box: 12, 100, 30;
 }
 
-body[t="Pretty Sunset :]"] { 
-    --background: linear-gradient(to top left, rgb(255, 213, 0) 0%, rgb(200, 0, 255) 100%); 
-    --theme: rgb(163,103,0); 
-    --theme-secondary: rgb(204,0,0); 
-    --text: rgb(255,234,0); 
-    --text-secondary: rgb(157,168,0); 
-    --box: 194,39,0; 
+body[t="Pretty Sunset :]"] {
+    --background: linear-gradient(to top left, rgb(255, 213, 0) 0%, rgb(200, 0, 255) 100%);
+    --theme: rgb(163, 103, 0);
+    --theme-secondary: rgb(204, 0, 0);
+    --text: rgb(255, 234, 0);
+    --text-secondary: rgb(157, 168, 0);
+    --box: 194, 39, 0;
 }
 
 body[t="Cool Colors"] {
@@ -431,4 +431,85 @@ body[t="Preimer Leugee"] {
     --text: rgb(255, 255, 255);
     --text-secondary: rgb(255, 255, 255);
     --box: 22, 38, 116;
+}
+
+body[t="Eye Cancer"] {
+    --background: rgb(255, 136, 0);
+    --theme: rgb(37, 141, 101);
+    --theme-secondary: rgb(246, 4, 4);
+    --text: rgb(0, 255, 17);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 255, 136, 0;
+}
+
+body[t="eye sadness"] {
+    --background: rgb(75, 160, 89);
+    --theme: rgb(240, 5, 5);
+    --theme-secondary: rgb(0, 0, 0);
+    --text: rgb(43, 255, 0);
+    --text-secondary: rgb(4, 0, 255);
+    --box: 75, 160, 89;
+}
+
+body[t="Messi vs Madrid"] {
+    --background: url('https://i.ytimg.com/vi/67DlnWtlllQ/maxresdefault.jpg');
+    --theme: rgb(107, 126, 219);
+    --theme-secondary: rgb(66, 89, 143);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 22, 38, 116;
+}
+
+body[t="Pink and Blue cotten candy"] {
+    --background: rgb(0, 30, 255);
+    --theme: rgb(255, 0, 221);
+    --theme-secondary: rgb(160, 97, 75);
+    --text: rgb(0, 0, 0);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 30, 255;
+}
+
+body[t="Red Batman"] {
+    --background: url('https://i.pinimg.com/originals/41/b0/c4/41b0c4c2ae2bd549b08b10f5f3d1a9c1.jpg');
+    --theme: rgb(0, 0, 0);
+    --theme-secondary: rgb(255, 0, 0);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 0, 0;
+}
+
+body[t="Shinji (Neon Genesis Evangalion)"] {
+    --background: url('https://mrwallpaper.com/images/hd/shinji-ikari-evangelion-2znqnwyhu9unom21.jpg');
+    --theme: rgba(0, 128, 128, .55);
+    --theme-secondary: rgba(36, 104, 127, .6);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 78, 177, 177;
+}
+
+body[t="myheroacidamia"] {
+    --background: url('https://images3.alphacoders.com/859/859804.png');
+    --theme: rgb(0, 0, 0);
+    --theme-secondary: rgb(5, 5, 5);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 0, 0;
+}
+
+body[t="Bubblegum"] {
+    --background: rgb(224, 32, 128);
+    --theme: rgb(192, 64, 128);
+    --theme-secondary: rgb(128, 0, 64);
+    --text: rgb(255, 192, 224);
+    --text-secondary: rgb(255, 128, 192);
+    --box: 224, 32, 128;
+}
+
+body[t="youtube.com/Th3Skeleton"] {
+    --background: rgb(51, 51, 153);
+    --theme: rgb(42, 37, 112);
+    --theme-secondary: rgb(54, 48, 129);
+    --text: rgb(255, 255, 255);
+    --text-secondary: rgb(255, 255, 255);
+    --box: 0, 0, 0;
 }
